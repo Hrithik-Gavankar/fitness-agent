@@ -40,6 +40,8 @@ fitness-agent/
 │   └── secrets.example.toml    # Template for auth setup
 ├── start.sh                    # Launch script
 ├── FLOW.md                     # Architecture documentation
+├── CONTRIBUTING.md             # Contribution guidelines
+├── MAINTAINERS.md              # Project owners & contributors
 └── requirements.txt
 ```
 
@@ -143,6 +145,14 @@ Edit JSON files in `fitness_agent/data/workouts/` and `fitness_agent/data/diet_p
 | Language         | Python 3.10+                  |
 | Data Validation  | Pydantic                      |
 | Data Storage     | Local JSON files              |
+
+## Contributing
+
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to get started.
+
+## Maintainers
+
+See [MAINTAINERS.md](MAINTAINERS.md) for the full list of project owners and contributors.
 
 ## Documentation
 
