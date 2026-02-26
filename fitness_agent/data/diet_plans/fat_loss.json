@@ -1,0 +1,245 @@
+{
+  "goal": "fat_loss",
+  "diet_types": {
+    "vegetarian": {
+      "cuisines": {
+        "indian": {
+          "meals": {
+            "breakfast": [
+              {"name": "Poha with Peanuts", "calories": 280, "protein_g": 8, "carbs_g": 52, "fat_g": 6, "ingredients": ["poha", "peanuts", "onion", "lemon", "mustard seeds"], "prep_time_min": 15},
+              {"name": "Idli with Sambar", "calories": 320, "protein_g": 12, "carbs_g": 58, "fat_g": 4, "ingredients": ["idli", "sambar", "coconut chutney"], "prep_time_min": 20},
+              {"name": "Vegetable Upma", "calories": 290, "protein_g": 9, "carbs_g": 48, "fat_g": 8, "ingredients": ["rava", "vegetables", "onion", "curry leaves"], "prep_time_min": 18},
+              {"name": "Multigrain Roti with Mixed Vegetable Sabzi", "calories": 310, "protein_g": 11, "carbs_g": 52, "fat_g": 7, "ingredients": ["multigrain flour", "mixed vegetables", "spices"], "prep_time_min": 25}
+            ],
+            "lunch": [
+              {"name": "Dal with Brown Rice and Palak Sabzi", "calories": 420, "protein_g": 18, "carbs_g": 62, "fat_g": 10, "ingredients": ["toor dal", "brown rice", "palak", "spices"], "prep_time_min": 35},
+              {"name": "Paneer Bhurji with 2 Roti", "calories": 450, "protein_g": 24, "carbs_g": 48, "fat_g": 18, "ingredients": ["paneer", "onion", "tomato", "whole wheat roti"], "prep_time_min": 25},
+              {"name": "Rajma Chawal (Small Portion)", "calories": 400, "protein_g": 16, "carbs_g": 65, "fat_g": 8, "ingredients": ["rajma", "rice", "onion", "tomato"], "prep_time_min": 40},
+              {"name": "Chole with Multigrain Roti", "calories": 430, "protein_g": 15, "carbs_g": 68, "fat_g": 10, "ingredients": ["chickpeas", "multigrain roti", "spices"], "prep_time_min": 30}
+            ],
+            "dinner": [
+              {"name": "Moong Dal Khichdi with Curd", "calories": 380, "protein_g": 16, "carbs_g": 58, "fat_g": 8, "ingredients": ["moong dal", "rice", "ghee", "curd"], "prep_time_min": 30},
+              {"name": "Grilled Paneer with Stir-Fry Vegetables", "calories": 350, "protein_g": 22, "carbs_g": 28, "fat_g": 16, "ingredients": ["paneer", "bell peppers", "broccoli", "spices"], "prep_time_min": 25},
+              {"name": "Lauki Sabzi with 2 Roti", "calories": 320, "protein_g": 10, "carbs_g": 52, "fat_g": 6, "ingredients": ["bottle gourd", "whole wheat roti", "spices"], "prep_time_min": 22},
+              {"name": "Vegetable Dalia", "calories": 340, "protein_g": 12, "carbs_g": 55, "fat_g": 7, "ingredients": ["broken wheat", "vegetables", "spices"], "prep_time_min": 28}
+            ],
+            "snacks": [
+              {"name": "Cucumber and Carrot Sticks with Hummus", "calories": 120, "protein_g": 5, "carbs_g": 14, "fat_g": 5, "ingredients": ["cucumber", "carrot", "hummus"], "prep_time_min": 5},
+              {"name": "Roasted Chana", "calories": 150, "protein_g": 8, "carbs_g": 22, "fat_g": 4, "ingredients": ["roasted chickpeas", "spices"], "prep_time_min": 2},
+              {"name": "Fruit Salad (Apple, Papaya, Pomegranate)", "calories": 130, "protein_g": 2, "carbs_g": 32, "fat_g": 1, "ingredients": ["apple", "papaya", "pomegranate"], "prep_time_min": 10},
+              {"name": "Buttermilk with Mint", "calories": 80, "protein_g": 4, "carbs_g": 10, "fat_g": 2, "ingredients": ["curd", "water", "mint", "cumin"], "prep_time_min": 3}
+            ]
+          }
+        },
+        "western": {
+          "meals": {
+            "breakfast": [
+              {"name": "Oatmeal with Berries", "calories": 300, "protein_g": 10, "carbs_g": 52, "fat_g": 6, "ingredients": ["oats", "berries", "almonds"], "prep_time_min": 10},
+              {"name": "Greek Yogurt Parfait", "calories": 280, "protein_g": 18, "carbs_g": 38, "fat_g": 6, "ingredients": ["Greek yogurt", "granola", "berries"], "prep_time_min": 5},
+              {"name": "Cottage Cheese with Fruit", "calories": 240, "protein_g": 22, "carbs_g": 22, "fat_g": 6, "ingredients": ["cottage cheese", "berries", "honey"], "prep_time_min": 5},
+              {"name": "Avocado Toast (1 Slice)", "calories": 260, "protein_g": 8, "carbs_g": 28, "fat_g": 14, "ingredients": ["whole grain bread", "avocado", "lemon"], "prep_time_min": 8}
+            ],
+            "lunch": [
+              {"name": "Chickpea Salad", "calories": 380, "protein_g": 16, "carbs_g": 48, "fat_g": 14, "ingredients": ["chickpeas", "mixed greens", "cherry tomato", "olive oil"], "prep_time_min": 15},
+              {"name": "Quinoa Buddha Bowl", "calories": 420, "protein_g": 16, "carbs_g": 55, "fat_g": 14, "ingredients": ["quinoa", "roasted vegetables", "chickpeas", "tahini"], "prep_time_min": 30},
+              {"name": "Mediterranean Salad with Feta", "calories": 400, "protein_g": 14, "carbs_g": 32, "fat_g": 26, "ingredients": ["lettuce", "cucumber", "tomato", "feta", "olives"], "prep_time_min": 15},
+              {"name": "Vegetable Stir-Fry with Brown Rice", "calories": 390, "protein_g": 12, "carbs_g": 58, "fat_g": 12, "ingredients": ["mixed vegetables", "brown rice", "soy sauce", "ginger"], "prep_time_min": 25}
+            ],
+            "dinner": [
+              {"name": "Grilled Tofu with Asparagus", "calories": 380, "protein_g": 28, "carbs_g": 22, "fat_g": 20, "ingredients": ["tofu", "asparagus", "lemon", "herbs"], "prep_time_min": 25},
+              {"name": "Lentil Soup with Whole Grain Bread", "calories": 360, "protein_g": 18, "carbs_g": 52, "fat_g": 8, "ingredients": ["lentils", "vegetables", "whole grain bread"], "prep_time_min": 30},
+              {"name": "Stuffed Bell Peppers", "calories": 320, "protein_g": 14, "carbs_g": 42, "fat_g": 10, "ingredients": ["bell peppers", "quinoa", "black beans", "cheese"], "prep_time_min": 35},
+              {"name": "Zucchini Noodle Pasta", "calories": 350, "protein_g": 14, "carbs_g": 28, "fat_g": 22, "ingredients": ["zucchini", "tomato sauce", "basil", "parmesan"], "prep_time_min": 18}
+            ],
+            "snacks": [
+              {"name": "Apple Slices with Almond Butter", "calories": 180, "protein_g": 4, "carbs_g": 22, "fat_g": 10, "ingredients": ["apple", "almond butter"], "prep_time_min": 3},
+              {"name": "Protein Smoothie", "calories": 200, "protein_g": 25, "carbs_g": 18, "fat_g": 4, "ingredients": ["protein powder", "banana", "almond milk", "spinach"], "prep_time_min": 5},
+              {"name": "Rice Cakes with Hummus", "calories": 150, "protein_g": 5, "carbs_g": 24, "fat_g": 4, "ingredients": ["rice cakes", "hummus"], "prep_time_min": 2},
+              {"name": "Celery Sticks with Peanut Butter", "calories": 140, "protein_g": 6, "carbs_g": 10, "fat_g": 10, "ingredients": ["celery", "peanut butter"], "prep_time_min": 3}
+            ]
+          }
+        }
+      }
+    },
+    "non_vegetarian": {
+      "cuisines": {
+        "indian": {
+          "meals": {
+            "breakfast": [
+              {"name": "Egg Bhurji with Multigrain Roti", "calories": 350, "protein_g": 24, "carbs_g": 32, "fat_g": 14, "ingredients": ["eggs", "onion", "tomato", "multigrain roti"], "prep_time_min": 15},
+              {"name": "Poha with Boiled Egg", "calories": 320, "protein_g": 14, "carbs_g": 48, "fat_g": 8, "ingredients": ["poha", "egg", "peanuts", "onion"], "prep_time_min": 18},
+              {"name": "Idli with Egg Curry", "calories": 380, "protein_g": 20, "carbs_g": 42, "fat_g": 12, "ingredients": ["idli", "egg curry", "sambar"], "prep_time_min": 25},
+              {"name": "Chicken Pulao (Small Portion)", "calories": 360, "protein_g": 22, "carbs_g": 42, "fat_g": 10, "ingredients": ["chicken", "rice", "spices"], "prep_time_min": 35}
+            ],
+            "lunch": [
+              {"name": "Chicken Curry with Brown Rice", "calories": 450, "protein_g": 38, "carbs_g": 48, "fat_g": 14, "ingredients": ["chicken", "brown rice", "onion", "tomato", "spices"], "prep_time_min": 40},
+              {"name": "Fish Curry with Steamed Rice", "calories": 420, "protein_g": 32, "carbs_g": 52, "fat_g": 10, "ingredients": ["fish", "rice", "coconut", "spices"], "prep_time_min": 35},
+              {"name": "Egg Curry with 2 Roti", "calories": 430, "protein_g": 24, "carbs_g": 48, "fat_g": 16, "ingredients": ["eggs", "whole wheat roti", "onion", "tomato"], "prep_time_min": 25},
+              {"name": "Chicken Salad with Dal", "calories": 440, "protein_g": 42, "carbs_g": 38, "fat_g": 14, "ingredients": ["grilled chicken", "dal", "cucumber", "tomato"], "prep_time_min": 30}
+            ],
+            "dinner": [
+              {"name": "Grilled Chicken with Vegetable Sabzi", "calories": 380, "protein_g": 42, "carbs_g": 28, "fat_g": 12, "ingredients": ["chicken breast", "mixed vegetables", "spices"], "prep_time_min": 28},
+              {"name": "Fish Fry with Dal and Rice", "calories": 400, "protein_g": 35, "carbs_g": 45, "fat_g": 10, "ingredients": ["fish", "dal", "rice", "spices"], "prep_time_min": 35},
+              {"name": "Chicken Tikka with Salad", "calories": 350, "protein_g": 38, "carbs_g": 18, "fat_g": 14, "ingredients": ["chicken tikka", "lettuce", "onion", "lemon"], "prep_time_min": 30},
+              {"name": "Egg Bhurji with Roti", "calories": 360, "protein_g": 22, "carbs_g": 35, "fat_g": 14, "ingredients": ["eggs", "onion", "tomato", "roti"], "prep_time_min": 15}
+            ],
+            "snacks": [
+              {"name": "Boiled Eggs (2) with Salt", "calories": 140, "protein_g": 12, "carbs_g": 1, "fat_g": 10, "ingredients": ["eggs", "salt"], "prep_time_min": 10},
+              {"name": "Chicken Soup", "calories": 120, "protein_g": 18, "carbs_g": 6, "fat_g": 4, "ingredients": ["chicken", "vegetables", "herbs"], "prep_time_min": 25},
+              {"name": "Roasted Chana with Boiled Egg", "calories": 180, "protein_g": 14, "carbs_g": 20, "fat_g": 6, "ingredients": ["roasted chickpeas", "egg"], "prep_time_min": 12},
+              {"name": "Fruit and Nut Mix", "calories": 150, "protein_g": 5, "carbs_g": 18, "fat_g": 8, "ingredients": ["almonds", "walnuts", "dried fruits"], "prep_time_min": 2}
+            ]
+          }
+        },
+        "western": {
+          "meals": {
+            "breakfast": [
+              {"name": "Egg White Omelette with Spinach", "calories": 220, "protein_g": 24, "carbs_g": 8, "fat_g": 10, "ingredients": ["egg whites", "spinach", "mushrooms"], "prep_time_min": 12},
+              {"name": "Smoked Salmon with Avocado", "calories": 320, "protein_g": 28, "carbs_g": 12, "fat_g": 18, "ingredients": ["smoked salmon", "avocado", "whole grain toast"], "prep_time_min": 10},
+              {"name": "Chicken Sausage with Oatmeal", "calories": 380, "protein_g": 28, "carbs_g": 42, "fat_g": 10, "ingredients": ["chicken sausage", "oats", "berries"], "prep_time_min": 15},
+              {"name": "Greek Yogurt with Grilled Chicken Strips", "calories": 350, "protein_g": 42, "carbs_g": 22, "fat_g": 10, "ingredients": ["Greek yogurt", "chicken", "cucumber"], "prep_time_min": 15}
+            ],
+            "lunch": [
+              {"name": "Grilled Chicken Caesar Salad", "calories": 420, "protein_g": 45, "carbs_g": 18, "fat_g": 20, "ingredients": ["chicken breast", "romaine", "parmesan", "caesar dressing"], "prep_time_min": 20},
+              {"name": "Baked Salmon with Quinoa", "calories": 480, "protein_g": 38, "carbs_g": 42, "fat_g": 18, "ingredients": ["salmon", "quinoa", "lemon", "herbs"], "prep_time_min": 30},
+              {"name": "Turkey and Avocado Wrap", "calories": 400, "protein_g": 32, "carbs_g": 35, "fat_g": 16, "ingredients": ["turkey", "avocado", "whole wheat wrap", "lettuce"], "prep_time_min": 12},
+              {"name": "Tuna Salad with Whole Grain Crackers", "calories": 410, "protein_g": 38, "carbs_g": 32, "fat_g": 14, "ingredients": ["tuna", "Greek yogurt", "celery", "crackers"], "prep_time_min": 15}
+            ],
+            "dinner": [
+              {"name": "Grilled Chicken Breast with Vegetables", "calories": 400, "protein_g": 48, "carbs_g": 22, "fat_g": 14, "ingredients": ["chicken breast", "broccoli", "carrots", "olive oil"], "prep_time_min": 25},
+              {"name": "Baked Salmon with Asparagus", "calories": 450, "protein_g": 42, "carbs_g": 12, "fat_g": 26, "ingredients": ["salmon", "asparagus", "lemon", "dill"], "prep_time_min": 25},
+              {"name": "Lean Beef Stir-Fry", "calories": 420, "protein_g": 38, "carbs_g": 28, "fat_g": 18, "ingredients": ["lean beef", "bell peppers", "broccoli", "soy sauce"], "prep_time_min": 22},
+              {"name": "Shrimp and Vegetable Skewers", "calories": 380, "protein_g": 42, "carbs_g": 18, "fat_g": 14, "ingredients": ["shrimp", "zucchini", "bell peppers", "lemon"], "prep_time_min": 25}
+            ],
+            "snacks": [
+              {"name": "Hard-Boiled Eggs (2)", "calories": 140, "protein_g": 12, "carbs_g": 1, "fat_g": 10, "ingredients": ["eggs"], "prep_time_min": 10},
+              {"name": "Turkey Jerky", "calories": 100, "protein_g": 16, "carbs_g": 4, "fat_g": 2, "ingredients": ["turkey jerky"], "prep_time_min": 0},
+              {"name": "Cottage Cheese with Berries", "calories": 160, "protein_g": 18, "carbs_g": 14, "fat_g": 4, "ingredients": ["cottage cheese", "berries"], "prep_time_min": 3},
+              {"name": "Protein Bar", "calories": 180, "protein_g": 20, "carbs_g": 18, "fat_g": 6, "ingredients": ["protein bar"], "prep_time_min": 0}
+            ]
+          }
+        }
+      }
+    },
+    "vegan": {
+      "cuisines": {
+        "indian": {
+          "meals": {
+            "breakfast": [
+              {"name": "Poha with Peanuts", "calories": 280, "protein_g": 8, "carbs_g": 52, "fat_g": 6, "ingredients": ["poha", "peanuts", "onion", "lemon"], "prep_time_min": 15},
+              {"name": "Idli with Tomato Chutney", "calories": 300, "protein_g": 10, "carbs_g": 55, "fat_g": 4, "ingredients": ["idli", "tomato chutney", "sambar"], "prep_time_min": 20},
+              {"name": "Dosa with Sambar", "calories": 320, "protein_g": 10, "carbs_g": 58, "fat_g": 6, "ingredients": ["dosa", "sambar", "coconut chutney"], "prep_time_min": 25},
+              {"name": "Vegetable Upma", "calories": 290, "protein_g": 9, "carbs_g": 48, "fat_g": 8, "ingredients": ["rava", "vegetables", "onion"], "prep_time_min": 18}
+            ],
+            "lunch": [
+              {"name": "Dal with Brown Rice and Bhindi Sabzi", "calories": 410, "protein_g": 16, "carbs_g": 68, "fat_g": 8, "ingredients": ["toor dal", "brown rice", "okra", "spices"], "prep_time_min": 35},
+              {"name": "Chole with Multigrain Roti", "calories": 420, "protein_g": 14, "carbs_g": 70, "fat_g": 8, "ingredients": ["chickpeas", "multigrain roti", "spices"], "prep_time_min": 30},
+              {"name": "Rajma with Rice (Small Portion)", "calories": 400, "protein_g": 15, "carbs_g": 68, "fat_g": 6, "ingredients": ["kidney beans", "rice", "spices"], "prep_time_min": 40},
+              {"name": "Mixed Dal with Roti", "calories": 400, "protein_g": 18, "carbs_g": 62, "fat_g": 8, "ingredients": ["moong dal", "masoor dal", "roti", "spices"], "prep_time_min": 35}
+            ],
+            "dinner": [
+              {"name": "Moong Dal Khichdi", "calories": 360, "protein_g": 14, "carbs_g": 62, "fat_g": 6, "ingredients": ["moong dal", "rice", "ghee"], "prep_time_min": 30},
+              {"name": "Lauki Sabzi with Roti", "calories": 310, "protein_g": 9, "carbs_g": 55, "fat_g": 5, "ingredients": ["bottle gourd", "whole wheat roti", "spices"], "prep_time_min": 22},
+              {"name": "Vegetable Dalia", "calories": 330, "protein_g": 11, "carbs_g": 58, "fat_g": 6, "ingredients": ["broken wheat", "vegetables", "spices"], "prep_time_min": 28},
+              {"name": "Tofu Curry with Rice", "calories": 380, "protein_g": 20, "carbs_g": 48, "fat_g": 14, "ingredients": ["tofu", "rice", "onion", "tomato", "spices"], "prep_time_min": 30}
+            ],
+            "snacks": [
+              {"name": "Roasted Chana", "calories": 150, "protein_g": 8, "carbs_g": 22, "fat_g": 4, "ingredients": ["roasted chickpeas", "spices"], "prep_time_min": 2},
+              {"name": "Fruit Salad", "calories": 120, "protein_g": 2, "carbs_g": 30, "fat_g": 1, "ingredients": ["apple", "banana", "pomegranate"], "prep_time_min": 10},
+              {"name": "Cucumber with Lemon and Salt", "calories": 40, "protein_g": 2, "carbs_g": 10, "fat_g": 0, "ingredients": ["cucumber", "lemon", "salt"], "prep_time_min": 3},
+              {"name": "Buttermilk (Vegan - Curd Alternative)", "calories": 60, "protein_g": 2, "carbs_g": 8, "fat_g": 2, "ingredients": ["plant milk", "lemon", "cumin"], "prep_time_min": 3}
+            ]
+          }
+        },
+        "western": {
+          "meals": {
+            "breakfast": [
+              {"name": "Oatmeal with Banana and Almonds", "calories": 320, "protein_g": 10, "carbs_g": 55, "fat_g": 8, "ingredients": ["oats", "banana", "almonds"], "prep_time_min": 10},
+              {"name": "Smoothie Bowl", "calories": 280, "protein_g": 8, "carbs_g": 52, "fat_g": 6, "ingredients": ["banana", "berries", "oat milk", "granola"], "prep_time_min": 8},
+              {"name": "Avocado Toast with Chickpeas", "calories": 350, "protein_g": 12, "carbs_g": 38, "fat_g": 16, "ingredients": ["whole grain bread", "avocado", "chickpeas"], "prep_time_min": 10},
+              {"name": "Tofu Scramble", "calories": 280, "protein_g": 20, "carbs_g": 12, "fat_g": 16, "ingredients": ["tofu", "turmeric", "vegetables"], "prep_time_min": 15}
+            ],
+            "lunch": [
+              {"name": "Quinoa Buddha Bowl", "calories": 430, "protein_g": 16, "carbs_g": 58, "fat_g": 14, "ingredients": ["quinoa", "roasted vegetables", "chickpeas", "tahini"], "prep_time_min": 30},
+              {"name": "Lentil Salad", "calories": 400, "protein_g": 18, "carbs_g": 55, "fat_g": 12, "ingredients": ["lentils", "vegetables", "olive oil", "lemon"], "prep_time_min": 25},
+              {"name": "Chickpea Wraps", "calories": 420, "protein_g": 16, "carbs_g": 62, "fat_g": 12, "ingredients": ["chickpeas", "whole wheat wrap", "hummus", "vegetables"], "prep_time_min": 15},
+              {"name": "Vegetable Stir-Fry with Brown Rice", "calories": 390, "protein_g": 12, "carbs_g": 60, "fat_g": 12, "ingredients": ["tofu", "vegetables", "brown rice", "soy sauce"], "prep_time_min": 25}
+            ],
+            "dinner": [
+              {"name": "Lentil Curry with Rice", "calories": 410, "protein_g": 18, "carbs_g": 65, "fat_g": 10, "ingredients": ["red lentils", "rice", "coconut milk", "spices"], "prep_time_min": 35},
+              {"name": "Grilled Tofu with Vegetables", "calories": 360, "protein_g": 24, "carbs_g": 28, "fat_g": 16, "ingredients": ["tofu", "bell peppers", "zucchini", "olive oil"], "prep_time_min": 25},
+              {"name": "Black Bean Tacos", "calories": 400, "protein_g": 18, "carbs_g": 58, "fat_g": 12, "ingredients": ["black beans", "corn tortillas", "avocado", "salsa"], "prep_time_min": 20},
+              {"name": "Vegetable Soup with Whole Grain Bread", "calories": 350, "protein_g": 12, "carbs_g": 55, "fat_g": 8, "ingredients": ["mixed vegetables", "beans", "whole grain bread"], "prep_time_min": 30}
+            ],
+            "snacks": [
+              {"name": "Hummus with Veggie Sticks", "calories": 150, "protein_g": 6, "carbs_g": 18, "fat_g": 6, "ingredients": ["hummus", "carrot", "celery", "cucumber"], "prep_time_min": 5},
+              {"name": "Mixed Nuts (Small Handful)", "calories": 160, "protein_g": 6, "carbs_g": 8, "fat_g": 14, "ingredients": ["almonds", "walnuts", "cashews"], "prep_time_min": 0},
+              {"name": "Apple with Peanut Butter", "calories": 200, "protein_g": 6, "carbs_g": 28, "fat_g": 10, "ingredients": ["apple", "peanut butter"], "prep_time_min": 3},
+              {"name": "Edamame", "calories": 120, "protein_g": 11, "carbs_g": 10, "fat_g": 5, "ingredients": ["edamame", "salt"], "prep_time_min": 5}
+            ]
+          }
+        }
+      }
+    },
+    "eggetarian": {
+      "cuisines": {
+        "indian": {
+          "meals": {
+            "breakfast": [
+              {"name": "Egg Bhurji with Multigrain Roti", "calories": 350, "protein_g": 24, "carbs_g": 32, "fat_g": 14, "ingredients": ["eggs", "onion", "tomato", "multigrain roti"], "prep_time_min": 15},
+              {"name": "Poha with Boiled Egg", "calories": 320, "protein_g": 14, "carbs_g": 48, "fat_g": 8, "ingredients": ["poha", "egg", "peanuts", "onion"], "prep_time_min": 18},
+              {"name": "Idli with Egg Curry", "calories": 380, "protein_g": 20, "carbs_g": 42, "fat_g": 12, "ingredients": ["idli", "egg curry", "sambar"], "prep_time_min": 25},
+              {"name": "Vegetable Upma with Egg", "calories": 340, "protein_g": 16, "carbs_g": 45, "fat_g": 10, "ingredients": ["rava", "vegetables", "egg"], "prep_time_min": 20}
+            ],
+            "lunch": [
+              {"name": "Dal with Rice and Egg Curry", "calories": 450, "protein_g": 24, "carbs_g": 58, "fat_g": 14, "ingredients": ["toor dal", "rice", "egg curry", "spices"], "prep_time_min": 35},
+              {"name": "Paneer Bhurji with Egg and Roti", "calories": 480, "protein_g": 32, "carbs_g": 42, "fat_g": 20, "ingredients": ["paneer", "egg", "roti", "spices"], "prep_time_min": 28},
+              {"name": "Chole with Boiled Egg and Roti", "calories": 460, "protein_g": 22, "carbs_g": 62, "fat_g": 14, "ingredients": ["chickpeas", "egg", "roti", "spices"], "prep_time_min": 30},
+              {"name": "Rajma with Egg Bhurji", "calories": 440, "protein_g": 24, "carbs_g": 55, "fat_g": 14, "ingredients": ["rajma", "eggs", "rice"], "prep_time_min": 40}
+            ],
+            "dinner": [
+              {"name": "Moong Dal Khichdi with Egg", "calories": 400, "protein_g": 22, "carbs_g": 52, "fat_g": 12, "ingredients": ["moong dal", "rice", "egg", "ghee"], "prep_time_min": 30},
+              {"name": "Egg Curry with 2 Roti", "calories": 420, "protein_g": 24, "carbs_g": 48, "fat_g": 16, "ingredients": ["eggs", "whole wheat roti", "onion", "tomato"], "prep_time_min": 25},
+              {"name": "Vegetable Sabzi with Egg Bhurji", "calories": 380, "protein_g": 22, "carbs_g": 45, "fat_g": 14, "ingredients": ["mixed vegetables", "eggs", "roti"], "prep_time_min": 28},
+              {"name": "Dalia with Boiled Egg", "calories": 370, "protein_g": 18, "carbs_g": 52, "fat_g": 10, "ingredients": ["broken wheat", "vegetables", "egg"], "prep_time_min": 28}
+            ],
+            "snacks": [
+              {"name": "Boiled Eggs (2) with Salt", "calories": 140, "protein_g": 12, "carbs_g": 1, "fat_g": 10, "ingredients": ["eggs", "salt"], "prep_time_min": 10},
+              {"name": "Roasted Chana with Egg", "calories": 200, "protein_g": 16, "carbs_g": 22, "fat_g": 8, "ingredients": ["roasted chickpeas", "boiled egg"], "prep_time_min": 12},
+              {"name": "Fruit Salad with Curd", "calories": 150, "protein_g": 6, "carbs_g": 28, "fat_g": 2, "ingredients": ["apple", "banana", "curd"], "prep_time_min": 10},
+              {"name": "Buttermilk with Mint", "calories": 80, "protein_g": 4, "carbs_g": 10, "fat_g": 2, "ingredients": ["curd", "water", "mint", "cumin"], "prep_time_min": 3}
+            ]
+          }
+        },
+        "western": {
+          "meals": {
+            "breakfast": [
+              {"name": "Egg White Omelette with Vegetables", "calories": 220, "protein_g": 24, "carbs_g": 12, "fat_g": 8, "ingredients": ["egg whites", "spinach", "tomato", "mushrooms"], "prep_time_min": 12},
+              {"name": "Scrambled Eggs with Avocado Toast", "calories": 380, "protein_g": 22, "carbs_g": 28, "fat_g": 22, "ingredients": ["eggs", "avocado", "whole grain bread"], "prep_time_min": 12},
+              {"name": "Oatmeal with Boiled Egg", "calories": 340, "protein_g": 18, "carbs_g": 48, "fat_g": 8, "ingredients": ["oats", "egg", "berries"], "prep_time_min": 15},
+              {"name": "Greek Yogurt with Egg", "calories": 320, "protein_g": 28, "carbs_g": 22, "fat_g": 12, "ingredients": ["Greek yogurt", "boiled egg", "berries"], "prep_time_min": 8}
+            ],
+            "lunch": [
+              {"name": "Egg Salad with Whole Grain Bread", "calories": 420, "protein_g": 28, "carbs_g": 38, "fat_g": 18, "ingredients": ["eggs", "Greek yogurt", "whole grain bread", "lettuce"], "prep_time_min": 15},
+              {"name": "Quinoa Bowl with Poached Egg", "calories": 450, "protein_g": 24, "carbs_g": 52, "fat_g": 16, "ingredients": ["quinoa", "poached egg", "avocado", "vegetables"], "prep_time_min": 25},
+              {"name": "Mediterranean Salad with Egg", "calories": 430, "protein_g": 24, "carbs_g": 35, "fat_g": 24, "ingredients": ["eggs", "lettuce", "cucumber", "feta", "olives"], "prep_time_min": 18},
+              {"name": "Vegetable Stir-Fry with Egg", "calories": 410, "protein_g": 24, "carbs_g": 48, "fat_g": 14, "ingredients": ["eggs", "mixed vegetables", "brown rice", "soy sauce"], "prep_time_min": 22}
+            ],
+            "dinner": [
+              {"name": "Baked Egg with Vegetables", "calories": 350, "protein_g": 24, "carbs_g": 28, "fat_g": 16, "ingredients": ["eggs", "spinach", "tomato", "cheese"], "prep_time_min": 25},
+              {"name": "Egg Curry with Brown Rice", "calories": 420, "protein_g": 26, "carbs_g": 48, "fat_g": 14, "ingredients": ["eggs", "brown rice", "onion", "tomato", "spices"], "prep_time_min": 30},
+              {"name": "Frittata with Salad", "calories": 380, "protein_g": 28, "carbs_g": 18, "fat_g": 22, "ingredients": ["eggs", "vegetables", "cheese", "mixed greens"], "prep_time_min": 28},
+              {"name": "Shakshuka with Whole Grain Bread", "calories": 400, "protein_g": 22, "carbs_g": 38, "fat_g": 18, "ingredients": ["eggs", "tomato", "bell peppers", "whole grain bread"], "prep_time_min": 25}
+            ],
+            "snacks": [
+              {"name": "Hard-Boiled Eggs (2)", "calories": 140, "protein_g": 12, "carbs_g": 1, "fat_g": 10, "ingredients": ["eggs"], "prep_time_min": 10},
+              {"name": "Egg Muffin Cups", "calories": 180, "protein_g": 16, "carbs_g": 8, "fat_g": 10, "ingredients": ["eggs", "vegetables", "cheese"], "prep_time_min": 20},
+              {"name": "Apple with Almond Butter", "calories": 200, "protein_g": 4, "carbs_g": 28, "fat_g": 10, "ingredients": ["apple", "almond butter"], "prep_time_min": 3},
+              {"name": "Cottage Cheese with Egg", "calories": 220, "protein_g": 28, "carbs_g": 8, "fat_g": 10, "ingredients": ["cottage cheese", "boiled egg"], "prep_time_min": 5}
+            ]
+          }
+        }
+      }
+    }
+  }
+}

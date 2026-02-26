@@ -1,0 +1,245 @@
+{
+  "goal": "weight_gain",
+  "diet_types": {
+    "vegetarian": {
+      "cuisines": {
+        "indian": {
+          "meals": {
+            "breakfast": [
+              {"name": "Aloo Paratha with Curd and Ghee", "calories": 620, "protein_g": 18, "carbs_g": 85, "fat_g": 24, "ingredients": ["potato", "whole wheat flour", "curd", "ghee"], "prep_time_min": 30},
+              {"name": "Puri with Chole", "calories": 680, "protein_g": 20, "carbs_g": 92, "fat_g": 28, "ingredients": ["puri", "chickpeas", "spices"], "prep_time_min": 35},
+              {"name": "Dosa with Potato Masala and Ghee", "calories": 650, "protein_g": 14, "carbs_g": 95, "fat_g": 24, "ingredients": ["dosa", "potato masala", "ghee", "chutney"], "prep_time_min": 35},
+              {"name": "Paneer Paratha with Lassi", "calories": 720, "protein_g": 32, "carbs_g": 72, "fat_g": 36, "ingredients": ["paneer", "whole wheat flour", "lassi", "ghee"], "prep_time_min": 30}
+            ],
+            "lunch": [
+              {"name": "Dal Makhani with Butter Naan and Rice", "calories": 920, "protein_g": 32, "carbs_g": 125, "fat_g": 32, "ingredients": ["urad dal", "rajma", "naan", "rice", "cream", "butter"], "prep_time_min": 50},
+              {"name": "Paneer Butter Masala with Naan and Rice", "calories": 880, "protein_g": 36, "carbs_g": 105, "fat_g": 38, "ingredients": ["paneer", "naan", "rice", "cream", "butter"], "prep_time_min": 40},
+              {"name": "Rajma Chawal with Raita and Papad", "calories": 850, "protein_g": 28, "carbs_g": 118, "fat_g": 28, "ingredients": ["rajma", "rice", "raita", "papad", "ghee"], "prep_time_min": 50},
+              {"name": "Chole Bhature with Lassi", "calories": 950, "protein_g": 28, "carbs_g": 125, "fat_g": 38, "ingredients": ["chickpeas", "bhatura", "lassi", "onion"], "prep_time_min": 45}
+            ],
+            "dinner": [
+              {"name": "Kadai Paneer with Naan and Rice", "calories": 850, "protein_g": 36, "carbs_g": 95, "fat_g": 42, "ingredients": ["paneer", "bell peppers", "naan", "rice", "cream"], "prep_time_min": 40},
+              {"name": "Malai Kofta with Roti", "calories": 820, "protein_g": 24, "carbs_g": 88, "fat_g": 42, "ingredients": ["paneer", "potato", "cream", "roti", "ghee"], "prep_time_min": 45},
+              {"name": "Dal Fry with Paratha and Rice", "calories": 780, "protein_g": 28, "carbs_g": 105, "fat_g": 28, "ingredients": ["toor dal", "paratha", "rice", "ghee"], "prep_time_min": 40},
+              {"name": "Vegetable Biryani with Raita", "calories": 800, "protein_g": 22, "carbs_g": 115, "fat_g": 28, "ingredients": ["rice", "vegetables", "raita", "ghee", "spices"], "prep_time_min": 50}
+            ],
+            "snacks": [
+              {"name": "Lassi with Dry Fruits", "calories": 420, "protein_g": 12, "carbs_g": 52, "fat_g": 18, "ingredients": ["curd", "sugar", "almonds", "cashews"], "prep_time_min": 5},
+              {"name": "Paneer Pakora (6 pieces)", "calories": 450, "protein_g": 22, "carbs_g": 42, "fat_g": 26, "ingredients": ["paneer", "besan", "oil"], "prep_time_min": 25},
+              {"name": "Mixed Nut and Dry Fruit Bowl", "calories": 480, "protein_g": 14, "carbs_g": 42, "fat_g": 34, "ingredients": ["almonds", "cashews", "walnuts", "dates", "raisins"], "prep_time_min": 5},
+              {"name": "Ghee Roti with Jaggery", "calories": 380, "protein_g": 8, "carbs_g": 58, "fat_g": 14, "ingredients": ["whole wheat roti", "ghee", "jaggery"], "prep_time_min": 10}
+            ]
+          }
+        },
+        "western": {
+          "meals": {
+            "breakfast": [
+              {"name": "Pancakes with Maple Syrup and Butter", "calories": 680, "protein_g": 18, "carbs_g": 95, "fat_g": 28, "ingredients": ["pancakes", "maple syrup", "butter", "berries"], "prep_time_min": 20},
+              {"name": "French Toast with Nutella", "calories": 720, "protein_g": 22, "carbs_g": 88, "fat_g": 34, "ingredients": ["bread", "eggs", "nutella", "butter"], "prep_time_min": 15},
+              {"name": "Granola with Full-Fat Yogurt and Honey", "calories": 650, "protein_g": 18, "carbs_g": 85, "fat_g": 28, "ingredients": ["granola", "full-fat yogurt", "honey", "nuts", "banana"], "prep_time_min": 8},
+              {"name": "Avocado Toast with Cheese", "calories": 600, "protein_g": 18, "carbs_g": 55, "fat_g": 38, "ingredients": ["sourdough bread", "avocado", "cheese", "olive oil"], "prep_time_min": 12}
+            ],
+            "lunch": [
+              {"name": "Mac and Cheese with Garlic Bread", "calories": 920, "protein_g": 32, "carbs_g": 95, "fat_g": 48, "ingredients": ["pasta", "cheese", "cream", "garlic bread"], "prep_time_min": 30},
+              {"name": "Grilled Cheese with Tomato Soup", "calories": 780, "protein_g": 28, "carbs_g": 72, "fat_g": 44, "ingredients": ["bread", "cheese", "butter", "tomato soup"], "prep_time_min": 20},
+              {"name": "Pizza Slice with Salad", "calories": 850, "protein_g": 32, "carbs_g": 95, "fat_g": 38, "ingredients": ["pizza", "mozzarella", "vegetables"], "prep_time_min": 25},
+              {"name": "Pasta Alfredo with Garlic Bread", "calories": 880, "protein_g": 28, "carbs_g": 92, "fat_g": 48, "ingredients": ["pasta", "cream", "parmesan", "garlic bread"], "prep_time_min": 25}
+            ],
+            "dinner": [
+              {"name": "Vegetable Lasagna", "calories": 850, "protein_g": 36, "carbs_g": 85, "fat_g": 42, "ingredients": ["pasta", "cheese", "vegetables", "cream"], "prep_time_min": 50},
+              {"name": "Risotto with Parmesan", "calories": 820, "protein_g": 24, "carbs_g": 95, "fat_g": 38, "ingredients": ["arborio rice", "parmesan", "butter", "vegetables"], "prep_time_min": 40},
+              {"name": "Stuffed Shells with Cheese", "calories": 880, "protein_g": 38, "carbs_g": 88, "fat_g": 44, "ingredients": ["pasta shells", "ricotta", "mozzarella", "marinara"], "prep_time_min": 45},
+              {"name": "Mashed Potato with Gravy", "calories": 750, "protein_g": 18, "carbs_g": 95, "fat_g": 36, "ingredients": ["potatoes", "butter", "cream", "gravy"], "prep_time_min": 35}
+            ],
+            "snacks": [
+              {"name": "Peanut Butter and Banana Sandwich", "calories": 520, "protein_g": 18, "carbs_g": 62, "fat_g": 24, "ingredients": ["bread", "peanut butter", "banana", "honey"], "prep_time_min": 5},
+              {"name": "Cheese and Crackers", "calories": 480, "protein_g": 18, "carbs_g": 42, "fat_g": 30, "ingredients": ["cheddar", "crackers", "nuts"], "prep_time_min": 5},
+              {"name": "Smoothie with Banana and Nut Butter", "calories": 550, "protein_g": 14, "carbs_g": 72, "fat_g": 24, "ingredients": ["banana", "peanut butter", "whole milk", "oats", "honey"], "prep_time_min": 5},
+              {"name": "Trail Mix with Chocolate", "calories": 520, "protein_g": 12, "carbs_g": 58, "fat_g": 32, "ingredients": ["nuts", "dried fruit", "dark chocolate", "m&m"], "prep_time_min": 2}
+            ]
+          }
+        }
+      }
+    },
+    "non_vegetarian": {
+      "cuisines": {
+        "indian": {
+          "meals": {
+            "breakfast": [
+              {"name": "Egg Bhurji with Paratha and Ghee", "calories": 680, "protein_g": 32, "carbs_g": 62, "fat_g": 32, "ingredients": ["eggs", "paratha", "ghee", "onion", "tomato"], "prep_time_min": 25},
+              {"name": "Chicken Pulao", "calories": 720, "protein_g": 42, "carbs_g": 72, "fat_g": 28, "ingredients": ["chicken", "rice", "ghee", "spices"], "prep_time_min": 45},
+              {"name": "Keema Paratha with Curd", "calories": 750, "protein_g": 42, "carbs_g": 72, "fat_g": 36, "ingredients": ["chicken keema", "paratha", "curd", "ghee"], "prep_time_min": 35},
+              {"name": "Fish Fry with Dosa", "calories": 700, "protein_g": 38, "carbs_g": 75, "fat_g": 28, "ingredients": ["fish", "dosa", "chutney"], "prep_time_min": 35}
+            ],
+            "lunch": [
+              {"name": "Chicken Biryani with Raita", "calories": 980, "protein_g": 52, "carbs_g": 105, "fat_g": 42, "ingredients": ["chicken", "basmati rice", "raita", "ghee", "spices"], "prep_time_min": 50},
+              {"name": "Butter Chicken with Naan and Rice", "calories": 950, "protein_g": 48, "carbs_g": 95, "fat_g": 48, "ingredients": ["chicken", "cream", "butter", "naan", "rice"], "prep_time_min": 45},
+              {"name": "Mutton Curry with Rice and Roti", "calories": 920, "protein_g": 52, "carbs_g": 85, "fat_g": 42, "ingredients": ["mutton", "rice", "roti", "ghee"], "prep_time_min": 60},
+              {"name": "Fish Curry with Rice and Papad", "calories": 850, "protein_g": 42, "carbs_g": 95, "fat_g": 32, "ingredients": ["fish", "rice", "coconut", "papad"], "prep_time_min": 45}
+            ],
+            "dinner": [
+              {"name": "Chicken Tikka Masala with Naan", "calories": 920, "protein_g": 52, "carbs_g": 85, "fat_g": 44, "ingredients": ["chicken", "cream", "naan", "rice"], "prep_time_min": 45},
+              {"name": "Egg Curry with Paratha", "calories": 820, "protein_g": 36, "carbs_g": 72, "fat_g": 42, "ingredients": ["eggs", "paratha", "onion", "tomato", "ghee"], "prep_time_min": 35},
+              {"name": "Lamb Curry with Rice", "calories": 900, "protein_g": 48, "carbs_g": 85, "fat_g": 42, "ingredients": ["lamb", "rice", "spices", "ghee"], "prep_time_min": 55},
+              {"name": "Prawn Curry with Rice", "calories": 850, "protein_g": 48, "carbs_g": 88, "fat_g": 32, "ingredients": ["prawns", "rice", "coconut", "spices"], "prep_time_min": 40}
+            ],
+            "snacks": [
+              {"name": "Chicken Roll", "calories": 520, "protein_g": 32, "carbs_g": 48, "fat_g": 24, "ingredients": ["chicken", "paratha", "onion", "chutney"], "prep_time_min": 20},
+              {"name": "Egg Pakora (4 pieces)", "calories": 420, "protein_g": 22, "carbs_g": 28, "fat_g": 26, "ingredients": ["eggs", "besan", "oil"], "prep_time_min": 25},
+              {"name": "Lassi with Dry Fruits", "calories": 450, "protein_g": 14, "carbs_g": 55, "fat_g": 20, "ingredients": ["curd", "sugar", "almonds", "cashews"], "prep_time_min": 5},
+              {"name": "Chicken Soup with Bread", "calories": 480, "protein_g": 38, "carbs_g": 42, "fat_g": 22, "ingredients": ["chicken", "vegetables", "bread", "cream"], "prep_time_min": 35}
+            ]
+          }
+        },
+        "western": {
+          "meals": {
+            "breakfast": [
+              {"name": "Full English Breakfast", "calories": 850, "protein_g": 48, "carbs_g": 52, "fat_g": 52, "ingredients": ["eggs", "bacon", "sausage", "toast", "beans", "butter"], "prep_time_min": 25},
+              {"name": "Pancakes with Eggs and Bacon", "calories": 780, "protein_g": 38, "carbs_g": 72, "fat_g": 42, "ingredients": ["pancakes", "eggs", "bacon", "maple syrup"], "prep_time_min": 25},
+              {"name": "Steak and Eggs", "calories": 720, "protein_g": 52, "carbs_g": 22, "fat_g": 48, "ingredients": ["steak", "eggs", "toast", "butter"], "prep_time_min": 20},
+              {"name": "Breakfast Burrito", "calories": 750, "protein_g": 42, "carbs_g": 62, "fat_g": 38, "ingredients": ["eggs", "bacon", "cheese", "tortilla", "sour cream"], "prep_time_min": 20}
+            ],
+            "lunch": [
+              {"name": "Double Cheeseburger with Fries", "calories": 1050, "protein_g": 52, "carbs_g": 85, "fat_g": 62, "ingredients": ["beef", "cheese", "bun", "fries"], "prep_time_min": 25},
+              {"name": "Chicken Parmesan with Pasta", "calories": 950, "protein_g": 58, "carbs_g": 85, "fat_g": 48, "ingredients": ["chicken", "parmesan", "pasta", "marinara"], "prep_time_min": 35},
+              {"name": "Fish and Chips", "calories": 920, "protein_g": 42, "carbs_g": 95, "fat_g": 48, "ingredients": ["fish", "fries", "batter", "tartar sauce"], "prep_time_min": 30},
+              {"name": "BBQ Ribs with Mac and Cheese", "calories": 980, "protein_g": 52, "carbs_g": 72, "fat_g": 58, "ingredients": ["pork ribs", "bbq sauce", "mac and cheese"], "prep_time_min": 45}
+            ],
+            "dinner": [
+              {"name": "Ribeye Steak with Mashed Potato", "calories": 950, "protein_g": 58, "carbs_g": 85, "fat_g": 48, "ingredients": ["ribeye", "potato", "butter", "cream"], "prep_time_min": 35},
+              {"name": "Salmon with Rice and Cream Sauce", "calories": 880, "protein_g": 48, "carbs_g": 72, "fat_g": 48, "ingredients": ["salmon", "rice", "cream", "butter"], "prep_time_min": 35},
+              {"name": "Chicken Alfredo Pasta", "calories": 920, "protein_g": 52, "carbs_g": 85, "fat_g": 48, "ingredients": ["chicken", "pasta", "cream", "parmesan"], "prep_time_min": 30},
+              {"name": "Meat Pizza with Garlic Bread", "calories": 950, "protein_g": 48, "carbs_g": 95, "fat_g": 48, "ingredients": ["pepperoni", "sausage", "pizza", "garlic bread"], "prep_time_min": 35}
+            ],
+            "snacks": [
+              {"name": "Chicken Wings (6 pieces)", "calories": 520, "protein_g": 28, "carbs_g": 22, "fat_g": 36, "ingredients": ["chicken wings", "sauce"], "prep_time_min": 15},
+              {"name": "Tuna Melt Sandwich", "calories": 580, "protein_g": 42, "carbs_g": 48, "fat_g": 28, "ingredients": ["tuna", "cheese", "bread", "mayo"], "prep_time_min": 15},
+              {"name": "Protein Shake with Peanut Butter", "calories": 550, "protein_g": 48, "carbs_g": 42, "fat_g": 24, "ingredients": ["protein powder", "peanut butter", "whole milk", "banana"], "prep_time_min": 5},
+              {"name": "Beef Jerky with Nuts", "calories": 480, "protein_g": 42, "carbs_g": 38, "fat_g": 24, "ingredients": ["beef jerky", "almonds", "cashews"], "prep_time_min": 2}
+            ]
+          }
+        }
+      }
+    },
+    "vegan": {
+      "cuisines": {
+        "indian": {
+          "meals": {
+            "breakfast": [
+              {"name": "Aloo Paratha with Pickle", "calories": 620, "protein_g": 14, "carbs_g": 92, "fat_g": 22, "ingredients": ["potato", "whole wheat flour", "oil", "pickle"], "prep_time_min": 30},
+              {"name": "Puri with Chole", "calories": 680, "protein_g": 18, "carbs_g": 95, "fat_g": 26, "ingredients": ["puri", "chickpeas", "spices"], "prep_time_min": 35},
+              {"name": "Dosa with Potato Masala", "calories": 650, "protein_g": 12, "carbs_g": 98, "fat_g": 22, "ingredients": ["dosa", "potato masala", "chutney"], "prep_time_min": 35},
+              {"name": "Upma with Coconut Chutney", "calories": 580, "protein_g": 12, "carbs_g": 88, "fat_g": 20, "ingredients": ["rava", "vegetables", "coconut chutney"], "prep_time_min": 25}
+            ],
+            "lunch": [
+              {"name": "Dal Makhani with Rice and Roti", "calories": 850, "protein_g": 28, "carbs_g": 125, "fat_g": 28, "ingredients": ["urad dal", "rajma", "rice", "roti", "oil"], "prep_time_min": 50},
+              {"name": "Chole with Bhatura", "calories": 880, "protein_g": 24, "carbs_g": 125, "fat_g": 32, "ingredients": ["chickpeas", "bhatura", "onion"], "prep_time_min": 40},
+              {"name": "Rajma Chawal with Salad", "calories": 820, "protein_g": 26, "carbs_g": 122, "fat_g": 24, "ingredients": ["rajma", "rice", "oil", "vegetables"], "prep_time_min": 50},
+              {"name": "Vegetable Biryani with Raita (Vegan)", "calories": 780, "protein_g": 18, "carbs_g": 115, "fat_g": 26, "ingredients": ["rice", "vegetables", "coconut yogurt", "spices"], "prep_time_min": 50}
+            ],
+            "dinner": [
+              {"name": "Kadai Vegetable with Naan", "calories": 780, "protein_g": 28, "carbs_g": 95, "fat_g": 32, "ingredients": ["vegetables", "naan", "oil", "spices"], "prep_time_min": 40},
+              {"name": "Dal Fry with Paratha", "calories": 720, "protein_g": 26, "carbs_g": 98, "fat_g": 24, "ingredients": ["toor dal", "paratha", "oil"], "prep_time_min": 40},
+              {"name": "Chana Masala with Rice", "calories": 750, "protein_g": 24, "carbs_g": 115, "fat_g": 22, "ingredients": ["chickpeas", "rice", "spices"], "prep_time_min": 35},
+              {"name": "Vegetable Pulao with Dal", "calories": 760, "protein_g": 22, "carbs_g": 115, "fat_g": 26, "ingredients": ["rice", "vegetables", "dal", "oil"], "prep_time_min": 45}
+            ],
+            "snacks": [
+              {"name": "Mixed Nut and Dry Fruit Bowl", "calories": 520, "protein_g": 14, "carbs_g": 48, "fat_g": 38, "ingredients": ["almonds", "cashews", "walnuts", "dates", "raisins"], "prep_time_min": 5},
+              {"name": "Chana Chaat", "calories": 420, "protein_g": 18, "carbs_g": 62, "fat_g": 12, "ingredients": ["chickpeas", "potato", "tamarind", "seviyan"], "prep_time_min": 20},
+              {"name": "Smoothie with Dates and Nuts", "calories": 480, "protein_g": 10, "carbs_g": 72, "fat_g": 20, "ingredients": ["banana", "dates", "almonds", "oat milk"], "prep_time_min": 5},
+              {"name": "Pakora with Chutney", "calories": 450, "protein_g": 12, "carbs_g": 52, "fat_g": 24, "ingredients": ["vegetables", "besan", "oil", "chutney"], "prep_time_min": 25}
+            ]
+          }
+        },
+        "western": {
+          "meals": {
+            "breakfast": [
+              {"name": "Vegan Pancakes with Maple Syrup", "calories": 650, "protein_g": 14, "carbs_g": 95, "fat_g": 24, "ingredients": ["oat flour", "banana", "maple syrup", "nuts"], "prep_time_min": 20},
+              {"name": "Avocado Toast with Hummus", "calories": 620, "protein_g": 16, "carbs_g": 62, "fat_g": 36, "ingredients": ["sourdough", "avocado", "hummus", "olive oil"], "prep_time_min": 12},
+              {"name": "Granola with Coconut Yogurt", "calories": 620, "protein_g": 12, "carbs_g": 88, "fat_g": 28, "ingredients": ["granola", "coconut yogurt", "banana", "nuts"], "prep_time_min": 8},
+              {"name": "Tofu Scramble with Toast", "calories": 580, "protein_g": 28, "carbs_g": 58, "fat_g": 28, "ingredients": ["tofu", "vegetables", "bread", "avocado"], "prep_time_min": 20}
+            ],
+            "lunch": [
+              {"name": "Vegan Mac and Cheese", "calories": 850, "protein_g": 24, "carbs_g": 95, "fat_g": 42, "ingredients": ["pasta", "cashew cheese", "nutritional yeast"], "prep_time_min": 30},
+              {"name": "Falafel Wrap with Hummus", "calories": 780, "protein_g": 24, "carbs_g": 95, "fat_g": 32, "ingredients": ["falafel", "hummus", "pita", "tahini"], "prep_time_min": 25},
+              {"name": "Vegan Burger with Fries", "calories": 820, "protein_g": 28, "carbs_g": 95, "fat_g": 32, "ingredients": ["vegetable patty", "bun", "fries", "avocado"], "prep_time_min": 25},
+              {"name": "Lentil Soup with Bread", "calories": 720, "protein_g": 32, "carbs_g": 95, "fat_g": 22, "ingredients": ["lentils", "vegetables", "bread", "olive oil"], "prep_time_min": 35}
+            ],
+            "dinner": [
+              {"name": "Vegan Lasagna", "calories": 820, "protein_g": 32, "carbs_g": 92, "fat_g": 38, "ingredients": ["pasta", "tofu ricotta", "vegetables", "marinara"], "prep_time_min": 50},
+              {"name": "Coconut Curry with Rice", "calories": 780, "protein_g": 22, "carbs_g": 95, "fat_g": 36, "ingredients": ["chickpeas", "coconut milk", "rice", "vegetables"], "prep_time_min": 40},
+              {"name": "Vegan Risotto", "calories": 750, "protein_g": 18, "carbs_g": 95, "fat_g": 32, "ingredients": ["arborio rice", "mushrooms", "olive oil", "nutritional yeast"], "prep_time_min": 40},
+              {"name": "Black Bean Tacos", "calories": 720, "protein_g": 28, "carbs_g": 88, "fat_g": 28, "ingredients": ["black beans", "tortillas", "avocado", "salsa"], "prep_time_min": 25}
+            ],
+            "snacks": [
+              {"name": "Peanut Butter and Banana", "calories": 520, "protein_g": 18, "carbs_g": 62, "fat_g": 28, "ingredients": ["peanut butter", "banana", "bread", "honey"], "prep_time_min": 5},
+              {"name": "Hummus with Pita", "calories": 480, "protein_g": 16, "carbs_g": 58, "fat_g": 22, "ingredients": ["hummus", "pita", "olive oil"], "prep_time_min": 5},
+              {"name": "Smoothie with Nut Butter", "calories": 550, "protein_g": 14, "carbs_g": 72, "fat_g": 26, "ingredients": ["banana", "peanut butter", "oat milk", "dates"], "prep_time_min": 5},
+              {"name": "Trail Mix with Dark Chocolate", "calories": 520, "protein_g": 12, "carbs_g": 58, "fat_g": 34, "ingredients": ["nuts", "dried fruit", "dark chocolate"], "prep_time_min": 2}
+            ]
+          }
+        }
+      }
+    },
+    "eggetarian": {
+      "cuisines": {
+        "indian": {
+          "meals": {
+            "breakfast": [
+              {"name": "Egg Bhurji with Paratha and Ghee", "calories": 680, "protein_g": 32, "carbs_g": 62, "fat_g": 32, "ingredients": ["eggs", "paratha", "ghee", "onion", "tomato"], "prep_time_min": 25},
+              {"name": "Poha with Boiled Eggs", "calories": 580, "protein_g": 24, "carbs_g": 72, "fat_g": 22, "ingredients": ["poha", "eggs", "peanuts", "ghee"], "prep_time_min": 22},
+              {"name": "Egg Paratha with Curd", "calories": 650, "protein_g": 28, "carbs_g": 62, "fat_g": 32, "ingredients": ["eggs", "paratha", "curd", "ghee"], "prep_time_min": 25},
+              {"name": "Dosa with Egg Curry", "calories": 620, "protein_g": 28, "carbs_g": 72, "fat_g": 22, "ingredients": ["dosa", "egg curry", "chutney"], "prep_time_min": 35}
+            ],
+            "lunch": [
+              {"name": "Egg Curry with Rice and Dal", "calories": 820, "protein_g": 38, "carbs_g": 95, "fat_g": 32, "ingredients": ["eggs", "dal", "rice", "ghee"], "prep_time_min": 40},
+              {"name": "Paneer Bhurji with Egg and Roti", "calories": 780, "protein_g": 42, "carbs_g": 62, "fat_g": 38, "ingredients": ["paneer", "eggs", "roti", "ghee"], "prep_time_min": 30},
+              {"name": "Chole with Egg and Bhatura", "calories": 850, "protein_g": 32, "carbs_g": 95, "fat_g": 38, "ingredients": ["chickpeas", "egg", "bhatura"], "prep_time_min": 40},
+              {"name": "Rajma with Egg Bhurji", "calories": 800, "protein_g": 36, "carbs_g": 95, "fat_g": 32, "ingredients": ["rajma", "eggs", "rice", "ghee"], "prep_time_min": 50}
+            ],
+            "dinner": [
+              {"name": "Egg Curry with Paratha", "calories": 780, "protein_g": 34, "carbs_g": 72, "fat_g": 40, "ingredients": ["eggs", "paratha", "onion", "tomato", "ghee"], "prep_time_min": 35},
+              {"name": "Moong Dal Khichdi with Egg", "calories": 720, "protein_g": 32, "carbs_g": 85, "fat_g": 28, "ingredients": ["moong dal", "rice", "egg", "ghee"], "prep_time_min": 40},
+              {"name": "Vegetable Sabzi with Egg Bhurji", "calories": 750, "protein_g": 32, "carbs_g": 78, "fat_g": 36, "ingredients": ["vegetables", "eggs", "roti", "ghee"], "prep_time_min": 35},
+              {"name": "Dalia with Egg", "calories": 680, "protein_g": 28, "carbs_g": 85, "fat_g": 24, "ingredients": ["broken wheat", "vegetables", "egg", "ghee"], "prep_time_min": 35}
+            ],
+            "snacks": [
+              {"name": "Boiled Eggs (3) with Toast", "calories": 420, "protein_g": 24, "carbs_g": 32, "fat_g": 20, "ingredients": ["eggs", "butter", "toast"], "prep_time_min": 15},
+              {"name": "Egg Pakora (4 pieces)", "calories": 420, "protein_g": 22, "carbs_g": 28, "fat_g": 26, "ingredients": ["eggs", "besan", "oil"], "prep_time_min": 25},
+              {"name": "Lassi with Dry Fruits", "calories": 450, "protein_g": 14, "carbs_g": 55, "fat_g": 20, "ingredients": ["curd", "sugar", "almonds", "cashews"], "prep_time_min": 5},
+              {"name": "Chana Chaat with Egg", "calories": 480, "protein_g": 26, "carbs_g": 52, "fat_g": 22, "ingredients": ["chickpeas", "boiled egg", "onion", "spices"], "prep_time_min": 18}
+            ]
+          }
+        },
+        "western": {
+          "meals": {
+            "breakfast": [
+              {"name": "Scrambled Eggs with Hash Browns", "calories": 680, "protein_g": 28, "carbs_g": 52, "fat_g": 38, "ingredients": ["eggs", "potatoes", "butter", "toast"], "prep_time_min": 25},
+              {"name": "French Toast with Eggs", "calories": 720, "protein_g": 32, "carbs_g": 72, "fat_g": 36, "ingredients": ["bread", "eggs", "maple syrup", "butter"], "prep_time_min": 20},
+              {"name": "Omelette with Cheese and Toast", "calories": 650, "protein_g": 36, "carbs_g": 42, "fat_g": 36, "ingredients": ["eggs", "cheese", "vegetables", "toast"], "prep_time_min": 18},
+              {"name": "Eggs Benedict", "calories": 680, "protein_g": 32, "carbs_g": 42, "fat_g": 42, "ingredients": ["eggs", "english muffin", "hollandaise", "butter"], "prep_time_min": 25}
+            ],
+            "lunch": [
+              {"name": "Egg Salad Sandwich with Fries", "calories": 820, "protein_g": 32, "carbs_g": 92, "fat_g": 38, "ingredients": ["eggs", "mayo", "bread", "fries"], "prep_time_min": 20},
+              {"name": "Quiche with Salad", "calories": 750, "protein_g": 32, "carbs_g": 48, "fat_g": 48, "ingredients": ["eggs", "cheese", "pastry", "vegetables"], "prep_time_min": 45},
+              {"name": "Frittata with Garlic Bread", "calories": 720, "protein_g": 36, "carbs_g": 52, "fat_g": 42, "ingredients": ["eggs", "vegetables", "cheese", "garlic bread"], "prep_time_min": 30},
+              {"name": "Shakshuka with Pita", "calories": 680, "protein_g": 28, "carbs_g": 62, "fat_g": 38, "ingredients": ["eggs", "tomato", "bell peppers", "pita"], "prep_time_min": 25}
+            ],
+            "dinner": [
+              {"name": "Egg Curry with Rice", "calories": 750, "protein_g": 34, "carbs_g": 85, "fat_g": 32, "ingredients": ["eggs", "rice", "onion", "tomato", "coconut"], "prep_time_min": 35},
+              {"name": "Frittata with Potato", "calories": 720, "protein_g": 36, "carbs_g": 62, "fat_g": 42, "ingredients": ["eggs", "potato", "cheese", "vegetables"], "prep_time_min": 35},
+              {"name": "Pasta Carbonara Style with Egg", "calories": 720, "protein_g": 32, "carbs_g": 72, "fat_g": 32, "ingredients": ["pasta", "eggs", "parmesan", "cream"], "prep_time_min": 22},
+              {"name": "Baked Eggs with Vegetables", "calories": 650, "protein_g": 32, "carbs_g": 48, "fat_g": 38, "ingredients": ["eggs", "spinach", "tomato", "cheese"], "prep_time_min": 30}
+            ],
+            "snacks": [
+              {"name": "Hard-Boiled Eggs (3)", "calories": 210, "protein_g": 18, "carbs_g": 2, "fat_g": 15, "ingredients": ["eggs"], "prep_time_min": 12},
+              {"name": "Egg Muffin with Cheese", "calories": 380, "protein_g": 28, "carbs_g": 22, "fat_g": 22, "ingredients": ["eggs", "cheese", "vegetables"], "prep_time_min": 25},
+              {"name": "Protein Shake with Banana", "calories": 520, "protein_g": 42, "carbs_g": 58, "fat_g": 18, "ingredients": ["protein powder", "banana", "milk", "peanut butter"], "prep_time_min": 5},
+              {"name": "Deviled Eggs (4)", "calories": 320, "protein_g": 20, "carbs_g": 8, "fat_g": 24, "ingredients": ["eggs", "mayo", "mustard"], "prep_time_min": 15}
+            ]
+          }
+        }
+      }
+    }
+  }
+}

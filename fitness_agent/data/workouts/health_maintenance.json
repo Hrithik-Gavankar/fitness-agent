@@ -1,0 +1,479 @@
+{
+  "goal": "health_maintenance",
+  "levels": {
+    "beginner": {
+      "equipment": {
+        "none": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body Strength",
+              "focus": "Strength, Mobility",
+              "exercises": [
+                {"name": "Bodyweight Squats", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Push-ups (Knee)", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Glute Bridges", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "glutes", "equipment": "none"},
+                {"name": "Plank", "sets": 3, "reps": "30 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"},
+                {"name": "Hip Opener Stretch", "sets": 1, "reps": "2 min", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Light Cardio + Mobility",
+              "focus": "Cardio, Flexibility",
+              "exercises": [
+                {"name": "Brisk Walk / Jog", "sets": 1, "reps": "15 min", "rest_sec": 0, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Sun Salutation (Yoga)", "sets": 3, "reps": "3 rounds", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Standing Quad Stretch", "sets": 2, "reps": "30 sec each", "rest_sec": 0, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Shoulder Rolls", "sets": 2, "reps": "10 each", "rest_sec": 0, "muscle_group": "shoulders", "equipment": "none"},
+                {"name": "Cat-Cow Stretch", "sets": 2, "reps": "10", "rest_sec": 0, "muscle_group": "back", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Upper Body + Core",
+              "focus": "Arms, Back, Core",
+              "exercises": [
+                {"name": "Push-ups", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Superman Hold", "sets": 3, "reps": "20 sec", "rest_sec": 30, "muscle_group": "back", "equipment": "none"},
+                {"name": "Tricep Dips (Chair)", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "triceps", "equipment": "none"},
+                {"name": "Bicycle Crunches", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "core", "equipment": "none"},
+                {"name": "Child's Pose", "sets": 1, "reps": "1 min", "rest_sec": 0, "muscle_group": "back", "equipment": "none"}
+              ]
+            }
+          ]
+        },
+        "basic": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body Strength",
+              "focus": "Strength, Moderate Intensity",
+              "exercises": [
+                {"name": "Dumbbell Goblet Squats", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Dumbbell Rows", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "back", "equipment": "dumbbell"},
+                {"name": "Dumbbell Shoulder Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "shoulders", "equipment": "dumbbell"},
+                {"name": "Resistance Band Pull-Aparts", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "back", "equipment": "band"},
+                {"name": "Plank", "sets": 3, "reps": "30 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Light Cardio + Stretch",
+              "focus": "Cardio, Flexibility",
+              "exercises": [
+                {"name": "Light Jog / March in Place", "sets": 1, "reps": "10 min", "rest_sec": 0, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Dumbbell Swings (Light)", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Seated Forward Fold", "sets": 2, "reps": "1 min", "rest_sec": 0, "muscle_group": "hamstrings", "equipment": "none"},
+                {"name": "Thread the Needle", "sets": 2, "reps": "30 sec each", "rest_sec": 0, "muscle_group": "back", "equipment": "none"},
+                {"name": "Hip Circles", "sets": 2, "reps": "10 each", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Lower Body + Mobility",
+              "focus": "Legs, Flexibility",
+              "exercises": [
+                {"name": "Dumbbell Lunges", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Dumbbell Romanian Deadlift", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "hamstrings", "equipment": "dumbbell"},
+                {"name": "Glute Bridges", "sets": 3, "reps": "15", "rest_sec": 45, "muscle_group": "glutes", "equipment": "none"},
+                {"name": "Calf Raises", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "calves", "equipment": "none"},
+                {"name": "Pigeon Pose (Stretch)", "sets": 1, "reps": "1 min each", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"}
+              ]
+            }
+          ]
+        },
+        "full_gym": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body Strength",
+              "focus": "Strength, Moderate Intensity",
+              "exercises": [
+                {"name": "Leg Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "machine"},
+                {"name": "Lat Pulldown", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Chest Press (Machine)", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "chest", "equipment": "machine"},
+                {"name": "Seated Row", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Lateral Raises", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "shoulders", "equipment": "dumbbell"},
+                {"name": "Plank", "sets": 3, "reps": "30 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Light Cardio + Yoga",
+              "focus": "Cardio, Flexibility",
+              "exercises": [
+                {"name": "Treadmill Walk", "sets": 1, "reps": "15 min", "rest_sec": 0, "muscle_group": "cardio", "equipment": "treadmill"},
+                {"name": "Sun Salutation", "sets": 3, "reps": "3 rounds", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Warrior I & II", "sets": 2, "reps": "30 sec each", "rest_sec": 0, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Downward Dog", "sets": 2, "reps": "1 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Cobra Stretch", "sets": 2, "reps": "30 sec", "rest_sec": 0, "muscle_group": "back", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Lower Body + Core",
+              "focus": "Legs, Core",
+              "exercises": [
+                {"name": "Leg Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "machine"},
+                {"name": "Leg Curls", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "hamstrings", "equipment": "machine"},
+                {"name": "Calf Raises", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "calves", "equipment": "machine"},
+                {"name": "Russian Twists", "sets": 3, "reps": "15 each", "rest_sec": 30, "muscle_group": "core", "equipment": "none"},
+                {"name": "Dead Bug", "sets": 3, "reps": "10 each", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "intermediate": {
+      "equipment": {
+        "none": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body Strength",
+              "focus": "Strength",
+              "exercises": [
+                {"name": "Bodyweight Squats", "sets": 3, "reps": "15", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Push-ups", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Lunges", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Inverted Rows (Table)", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "none"},
+                {"name": "Plank", "sets": 3, "reps": "45 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Light Cardio + Mobility",
+              "focus": "Cardio, Flexibility",
+              "exercises": [
+                {"name": "Brisk Walk / Light Jog", "sets": 1, "reps": "20 min", "rest_sec": 0, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Sun Salutation", "sets": 4, "reps": "4 rounds", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Hip Opener Flow", "sets": 2, "reps": "5 min", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"},
+                {"name": "Spine Twists", "sets": 2, "reps": "10 each", "rest_sec": 0, "muscle_group": "back", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Upper Body + Core",
+              "focus": "Arms, Back, Core",
+              "exercises": [
+                {"name": "Diamond Push-ups", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "triceps", "equipment": "none"},
+                {"name": "Pike Push-ups", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "shoulders", "equipment": "none"},
+                {"name": "Inverted Rows", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "none"},
+                {"name": "Bicycle Crunches", "sets": 3, "reps": "20", "rest_sec": 30, "muscle_group": "core", "equipment": "none"},
+                {"name": "Child's Pose + Cat-Cow", "sets": 1, "reps": "2 min", "rest_sec": 0, "muscle_group": "back", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Yoga + Stretch Day",
+              "focus": "Flexibility, Recovery",
+              "exercises": [
+                {"name": "Full Yoga Flow", "sets": 1, "reps": "25 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Hip Flexor Stretch", "sets": 2, "reps": "1 min each", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"},
+                {"name": "Hamstring Stretch", "sets": 2, "reps": "1 min each", "rest_sec": 0, "muscle_group": "hamstrings", "equipment": "none"},
+                {"name": "Shoulder Stretch", "sets": 2, "reps": "45 sec each", "rest_sec": 0, "muscle_group": "shoulders", "equipment": "none"},
+                {"name": "Foam Rolling (if available)", "sets": 1, "reps": "10 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            }
+          ]
+        },
+        "basic": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body Strength",
+              "focus": "Strength",
+              "exercises": [
+                {"name": "Dumbbell Goblet Squats", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Dumbbell Bent Over Rows", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "back", "equipment": "dumbbell"},
+                {"name": "Dumbbell Shoulder Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "shoulders", "equipment": "dumbbell"},
+                {"name": "Dumbbell Floor Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "chest", "equipment": "dumbbell"},
+                {"name": "Band Pull-Aparts", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "back", "equipment": "band"},
+                {"name": "Plank", "sets": 3, "reps": "45 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Light Cardio + Mobility",
+              "focus": "Cardio, Flexibility",
+              "exercises": [
+                {"name": "Light Jog / March", "sets": 1, "reps": "15 min", "rest_sec": 0, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Dumbbell Swings", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Sun Salutation", "sets": 4, "reps": "4 rounds", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Hip Opener Stretches", "sets": 2, "reps": "3 min", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Lower Body + Core",
+              "focus": "Legs, Core",
+              "exercises": [
+                {"name": "Dumbbell Lunges", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Dumbbell Romanian Deadlift", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "hamstrings", "equipment": "dumbbell"},
+                {"name": "Glute Bridges (Dumbbell)", "sets": 3, "reps": "15", "rest_sec": 45, "muscle_group": "glutes", "equipment": "dumbbell"},
+                {"name": "Russian Twists (Dumbbell)", "sets": 3, "reps": "15 each", "rest_sec": 30, "muscle_group": "core", "equipment": "dumbbell"},
+                {"name": "Dead Bug", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Yoga + Stretch",
+              "focus": "Flexibility, Recovery",
+              "exercises": [
+                {"name": "Yoga Flow (Vinyasa)", "sets": 1, "reps": "25 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Pigeon Pose", "sets": 2, "reps": "1 min each", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"},
+                {"name": "Seated Forward Fold", "sets": 2, "reps": "1 min", "rest_sec": 0, "muscle_group": "hamstrings", "equipment": "none"},
+                {"name": "Thread the Needle", "sets": 2, "reps": "45 sec each", "rest_sec": 0, "muscle_group": "back", "equipment": "none"}
+              ]
+            }
+          ]
+        },
+        "full_gym": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body Strength",
+              "focus": "Strength",
+              "exercises": [
+                {"name": "Leg Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "machine"},
+                {"name": "Lat Pulldown", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Chest Press (Machine)", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "chest", "equipment": "machine"},
+                {"name": "Seated Row", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Lateral Raises", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "shoulders", "equipment": "dumbbell"},
+                {"name": "Plank", "sets": 3, "reps": "45 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Light Cardio + Yoga",
+              "focus": "Cardio, Flexibility",
+              "exercises": [
+                {"name": "Treadmill Walk/Jog", "sets": 1, "reps": "20 min", "rest_sec": 0, "muscle_group": "cardio", "equipment": "treadmill"},
+                {"name": "Sun Salutation", "sets": 4, "reps": "4 rounds", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Warrior Flow", "sets": 2, "reps": "5 min", "rest_sec": 0, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Hip Opener Sequence", "sets": 2, "reps": "3 min", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Lower Body + Core",
+              "focus": "Legs, Core",
+              "exercises": [
+                {"name": "Leg Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "machine"},
+                {"name": "Leg Curls", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "hamstrings", "equipment": "machine"},
+                {"name": "Calf Raises", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "calves", "equipment": "machine"},
+                {"name": "Cable Woodchops", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "cable"},
+                {"name": "Dead Bug", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Yoga + Mobility",
+              "focus": "Flexibility, Recovery",
+              "exercises": [
+                {"name": "Full Yoga Flow", "sets": 1, "reps": "30 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Foam Rolling", "sets": 1, "reps": "10 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "foam_roller"},
+                {"name": "Static Stretching", "sets": 1, "reps": "10 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "advanced": {
+      "equipment": {
+        "none": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body Strength",
+              "focus": "Strength",
+              "exercises": [
+                {"name": "Pistol Squat (Assisted)", "sets": 3, "reps": "10 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Push-ups", "sets": 3, "reps": "15", "rest_sec": 45, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Pull-ups", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "back", "equipment": "none"},
+                {"name": "Pike Push-ups", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "shoulders", "equipment": "none"},
+                {"name": "Hanging Leg Raises", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "core", "equipment": "pull_up_bar"},
+                {"name": "L-sit Hold", "sets": 2, "reps": "20 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Light Cardio + Mobility",
+              "focus": "Cardio, Flexibility",
+              "exercises": [
+                {"name": "Brisk Walk / Light Run", "sets": 1, "reps": "25 min", "rest_sec": 0, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Sun Salutation", "sets": 5, "reps": "5 rounds", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Hip Opener Flow", "sets": 2, "reps": "5 min", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"},
+                {"name": "Spine Mobility", "sets": 2, "reps": "5 min", "rest_sec": 0, "muscle_group": "back", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Lower Body + Core",
+              "focus": "Legs, Core",
+              "exercises": [
+                {"name": "Bulgarian Split Squat (Bodyweight)", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Single Leg Glute Bridge", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "glutes", "equipment": "none"},
+                {"name": "Nordic Curl Negatives", "sets": 3, "reps": "8", "rest_sec": 45, "muscle_group": "hamstrings", "equipment": "none"},
+                {"name": "Bicycle Crunches", "sets": 3, "reps": "25", "rest_sec": 30, "muscle_group": "core", "equipment": "none"},
+                {"name": "Plank Variations", "sets": 3, "reps": "45 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Upper Body + Stretch",
+              "focus": "Arms, Back, Flexibility",
+              "exercises": [
+                {"name": "Diamond Push-ups", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "triceps", "equipment": "none"},
+                {"name": "Archer Push-ups", "sets": 3, "reps": "8 each", "rest_sec": 45, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Inverted Rows", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "none"},
+                {"name": "Chin-ups", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "biceps", "equipment": "none"},
+                {"name": "Full Body Stretch", "sets": 1, "reps": "10 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 5,
+              "name": "Yoga + Recovery",
+              "focus": "Flexibility, Recovery",
+              "exercises": [
+                {"name": "Full Yoga Flow (Advanced)", "sets": 1, "reps": "35 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Deep Hip Stretches", "sets": 2, "reps": "5 min", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"},
+                {"name": "Shoulder Mobility", "sets": 2, "reps": "5 min", "rest_sec": 0, "muscle_group": "shoulders", "equipment": "none"},
+                {"name": "Foam Rolling", "sets": 1, "reps": "15 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "foam_roller"}
+              ]
+            }
+          ]
+        },
+        "basic": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body Strength",
+              "focus": "Strength",
+              "exercises": [
+                {"name": "Dumbbell Goblet Squats", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Dumbbell Bent Over Rows", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "back", "equipment": "dumbbell"},
+                {"name": "Dumbbell Shoulder Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "shoulders", "equipment": "dumbbell"},
+                {"name": "Dumbbell Floor Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "chest", "equipment": "dumbbell"},
+                {"name": "Dumbbell Curls", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "biceps", "equipment": "dumbbell"},
+                {"name": "Plank", "sets": 3, "reps": "45 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Light Cardio + Mobility",
+              "focus": "Cardio, Flexibility",
+              "exercises": [
+                {"name": "Light Jog / March", "sets": 1, "reps": "20 min", "rest_sec": 0, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Dumbbell Swings", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Sun Salutation", "sets": 5, "reps": "5 rounds", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Hip Opener Flow", "sets": 2, "reps": "5 min", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Lower Body + Core",
+              "focus": "Legs, Core",
+              "exercises": [
+                {"name": "Dumbbell Bulgarian Split Squat", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Dumbbell Romanian Deadlift", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "hamstrings", "equipment": "dumbbell"},
+                {"name": "Banded Hip Thrusts", "sets": 3, "reps": "15", "rest_sec": 45, "muscle_group": "glutes", "equipment": "band"},
+                {"name": "Russian Twists (Dumbbell)", "sets": 3, "reps": "20 each", "rest_sec": 30, "muscle_group": "core", "equipment": "dumbbell"},
+                {"name": "Dead Bug", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Upper Body + Stretch",
+              "focus": "Arms, Flexibility",
+              "exercises": [
+                {"name": "Dumbbell Rows", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "back", "equipment": "dumbbell"},
+                {"name": "Dumbbell Tricep Extension", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "triceps", "equipment": "dumbbell"},
+                {"name": "Dumbbell Curls", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "biceps", "equipment": "dumbbell"},
+                {"name": "Band Face Pulls", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "rear_delts", "equipment": "band"},
+                {"name": "Full Body Stretch", "sets": 1, "reps": "10 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 5,
+              "name": "Yoga + Recovery",
+              "focus": "Flexibility, Recovery",
+              "exercises": [
+                {"name": "Full Yoga Flow", "sets": 1, "reps": "35 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Turkish Get-up (Light)", "sets": 2, "reps": "3 each", "rest_sec": 45, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Foam Rolling", "sets": 1, "reps": "15 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "foam_roller"}
+              ]
+            }
+          ]
+        },
+        "full_gym": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body Strength",
+              "focus": "Strength",
+              "exercises": [
+                {"name": "Leg Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "machine"},
+                {"name": "Lat Pulldown", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Chest Press (Machine)", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "chest", "equipment": "machine"},
+                {"name": "Seated Row", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Lateral Raises", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "shoulders", "equipment": "dumbbell"},
+                {"name": "Plank", "sets": 3, "reps": "45 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Light Cardio + Yoga",
+              "focus": "Cardio, Flexibility",
+              "exercises": [
+                {"name": "Treadmill Walk/Jog", "sets": 1, "reps": "25 min", "rest_sec": 0, "muscle_group": "cardio", "equipment": "treadmill"},
+                {"name": "Sun Salutation", "sets": 5, "reps": "5 rounds", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Warrior Flow", "sets": 2, "reps": "5 min", "rest_sec": 0, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Hip Opener Sequence", "sets": 2, "reps": "5 min", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Lower Body + Core",
+              "focus": "Legs, Core",
+              "exercises": [
+                {"name": "Leg Press", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "machine"},
+                {"name": "Leg Curls", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "hamstrings", "equipment": "machine"},
+                {"name": "Leg Extensions", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "quads", "equipment": "machine"},
+                {"name": "Calf Raises", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "calves", "equipment": "machine"},
+                {"name": "Cable Woodchops", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "cable"},
+                {"name": "Hanging Leg Raises", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "core", "equipment": "pull_up_bar"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Upper Body + Stretch",
+              "focus": "Arms, Flexibility",
+              "exercises": [
+                {"name": "Lat Pulldown", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Cable Rows", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Dumbbell Curls", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "biceps", "equipment": "dumbbell"},
+                {"name": "Tricep Pushdowns", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "triceps", "equipment": "cable"},
+                {"name": "Face Pulls", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "rear_delts", "equipment": "cable"},
+                {"name": "Full Body Stretch", "sets": 1, "reps": "10 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 5,
+              "name": "Yoga + Recovery",
+              "focus": "Flexibility, Recovery",
+              "exercises": [
+                {"name": "Full Yoga Flow", "sets": 1, "reps": "35 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Foam Rolling", "sets": 1, "reps": "15 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "foam_roller"},
+                {"name": "Static Stretching", "sets": 1, "reps": "15 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

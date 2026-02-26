@@ -1,0 +1,560 @@
+{
+  "goal": "fat_loss",
+  "levels": {
+    "beginner": {
+      "equipment": {
+        "none": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body HIIT",
+              "focus": "Full Body Cardio",
+              "exercises": [
+                {"name": "Jumping Jacks", "sets": 3, "reps": "30 sec", "rest_sec": 20, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Bodyweight Squats", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Push-ups (Knee)", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Mountain Climbers", "sets": 3, "reps": "30 sec", "rest_sec": 20, "muscle_group": "core", "equipment": "none"},
+                {"name": "Burpees", "sets": 3, "reps": "8", "rest_sec": 45, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Lower Body + Core",
+              "focus": "Legs, Glutes, Core",
+              "exercises": [
+                {"name": "Lunges", "sets": 3, "reps": "12 each leg", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Glute Bridges", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "glutes", "equipment": "none"},
+                {"name": "Wall Sit", "sets": 3, "reps": "30 sec", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Plank", "sets": 3, "reps": "30 sec", "rest_sec": 20, "muscle_group": "core", "equipment": "none"},
+                {"name": "Bicycle Crunches", "sets": 3, "reps": "20", "rest_sec": 20, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Upper Body + Cardio",
+              "focus": "Chest, Back, Arms, Cardio",
+              "exercises": [
+                {"name": "Push-ups", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Superman Hold", "sets": 3, "reps": "20 sec", "rest_sec": 20, "muscle_group": "back", "equipment": "none"},
+                {"name": "Tricep Dips (Chair)", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "triceps", "equipment": "none"},
+                {"name": "High Knees", "sets": 3, "reps": "30 sec", "rest_sec": 20, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Plank Shoulder Taps", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Cardio Blast",
+              "focus": "Full Body Cardio",
+              "exercises": [
+                {"name": "Spot Jogging", "sets": 1, "reps": "3 min", "rest_sec": 60, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Squat Jumps", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Burpees", "sets": 3, "reps": "8", "rest_sec": 45, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Skater Jumps", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Plank Jacks", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "core", "equipment": "none"}
+              ]
+            }
+          ]
+        },
+        "basic": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Full Body Circuit",
+              "focus": "Full Body",
+              "exercises": [
+                {"name": "Dumbbell Goblet Squats", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Dumbbell Rows", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "back", "equipment": "dumbbell"},
+                {"name": "Dumbbell Shoulder Press", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "shoulders", "equipment": "dumbbell"},
+                {"name": "Resistance Band Pull-Aparts", "sets": 3, "reps": "15", "rest_sec": 20, "muscle_group": "back", "equipment": "band"},
+                {"name": "Mountain Climbers", "sets": 3, "reps": "30 sec", "rest_sec": 20, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Lower Body Burn",
+              "focus": "Legs, Glutes",
+              "exercises": [
+                {"name": "Dumbbell Lunges", "sets": 3, "reps": "10 each", "rest_sec": 30, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Dumbbell Romanian Deadlift", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "hamstrings", "equipment": "dumbbell"},
+                {"name": "Banded Squats", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "legs", "equipment": "band"},
+                {"name": "Dumbbell Step-ups", "sets": 3, "reps": "10 each", "rest_sec": 30, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Plank", "sets": 3, "reps": "45 sec", "rest_sec": 20, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Upper Body + HIIT",
+              "focus": "Chest, Back, Arms",
+              "exercises": [
+                {"name": "Dumbbell Bench Press (Floor)", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "chest", "equipment": "dumbbell"},
+                {"name": "Dumbbell Curls", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "biceps", "equipment": "dumbbell"},
+                {"name": "Dumbbell Tricep Kickbacks", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "triceps", "equipment": "dumbbell"},
+                {"name": "Band Rows", "sets": 3, "reps": "15", "rest_sec": 20, "muscle_group": "back", "equipment": "band"},
+                {"name": "Burpees", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Cardio + Core",
+              "focus": "Cardio, Core",
+              "exercises": [
+                {"name": "Jumping Jacks", "sets": 3, "reps": "45 sec", "rest_sec": 15, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Dumbbell Swings", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Russian Twists (Dumbbell)", "sets": 3, "reps": "20", "rest_sec": 20, "muscle_group": "core", "equipment": "dumbbell"},
+                {"name": "Squat Jumps", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Dead Bug", "sets": 3, "reps": "12 each", "rest_sec": 20, "muscle_group": "core", "equipment": "none"}
+              ]
+            }
+          ]
+        },
+        "full_gym": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Upper Body",
+              "focus": "Chest, Back, Shoulders",
+              "exercises": [
+                {"name": "Incline Dumbbell Press", "sets": 4, "reps": "12", "rest_sec": 60, "muscle_group": "chest", "equipment": "dumbbell"},
+                {"name": "Lat Pulldown", "sets": 4, "reps": "12", "rest_sec": 60, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Cable Flyes", "sets": 3, "reps": "15", "rest_sec": 45, "muscle_group": "chest", "equipment": "cable"},
+                {"name": "Seated Row", "sets": 3, "reps": "12", "rest_sec": 60, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Lateral Raises", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "shoulders", "equipment": "dumbbell"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Lower Body",
+              "focus": "Quads, Hamstrings, Glutes",
+              "exercises": [
+                {"name": "Barbell Squats", "sets": 4, "reps": "10", "rest_sec": 90, "muscle_group": "legs", "equipment": "barbell"},
+                {"name": "Leg Press", "sets": 4, "reps": "12", "rest_sec": 60, "muscle_group": "legs", "equipment": "machine"},
+                {"name": "Romanian Deadlift", "sets": 3, "reps": "12", "rest_sec": 60, "muscle_group": "hamstrings", "equipment": "barbell"},
+                {"name": "Leg Curls", "sets": 3, "reps": "15", "rest_sec": 45, "muscle_group": "hamstrings", "equipment": "machine"},
+                {"name": "Calf Raises", "sets": 4, "reps": "15", "rest_sec": 30, "muscle_group": "calves", "equipment": "machine"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "HIIT + Core",
+              "focus": "Cardio, Core",
+              "exercises": [
+                {"name": "Treadmill Sprints", "sets": 8, "reps": "30 sec on / 30 sec off", "rest_sec": 30, "muscle_group": "cardio", "equipment": "treadmill"},
+                {"name": "Cable Woodchops", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "cable"},
+                {"name": "Hanging Leg Raises", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "core", "equipment": "pull_up_bar"},
+                {"name": "Battle Ropes", "sets": 3, "reps": "30 sec", "rest_sec": 30, "muscle_group": "full_body", "equipment": "battle_ropes"},
+                {"name": "Plank", "sets": 3, "reps": "45 sec", "rest_sec": 20, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Full Body Circuit",
+              "focus": "Full Body",
+              "exercises": [
+                {"name": "Kettlebell Swings", "sets": 4, "reps": "15", "rest_sec": 30, "muscle_group": "full_body", "equipment": "kettlebell"},
+                {"name": "Dumbbell Thrusters", "sets": 3, "reps": "12", "rest_sec": 45, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Box Jumps", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "legs", "equipment": "box"},
+                {"name": "Renegade Rows", "sets": 3, "reps": "10 each", "rest_sec": 45, "muscle_group": "back", "equipment": "dumbbell"},
+                {"name": "Bicycle Crunches", "sets": 3, "reps": "20", "rest_sec": 20, "muscle_group": "core", "equipment": "none"}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "intermediate": {
+      "equipment": {
+        "none": {
+          "days": [
+            {
+              "day": 1,
+              "name": "HIIT Power",
+              "focus": "Full Body HIIT",
+              "exercises": [
+                {"name": "Burpee to Tuck Jump", "sets": 4, "reps": "10", "rest_sec": 30, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Push-up Variations (Wide/Diamond)", "sets": 4, "reps": "12", "rest_sec": 30, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Jump Squats", "sets": 4, "reps": "15", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Plank to Push-up", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "core", "equipment": "none"},
+                {"name": "High Knees Sprint", "sets": 4, "reps": "45 sec", "rest_sec": 15, "muscle_group": "cardio", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Lower Body Blast",
+              "focus": "Legs, Glutes",
+              "exercises": [
+                {"name": "Pistol Squat (Assisted)", "sets": 3, "reps": "8 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Jump Lunges", "sets": 4, "reps": "10 each", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Single Leg Glute Bridge", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "glutes", "equipment": "none"},
+                {"name": "Wall Sit", "sets": 3, "reps": "45 sec", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Calf Raises (Single Leg)", "sets": 3, "reps": "15 each", "rest_sec": 20, "muscle_group": "calves", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Upper Body + Core",
+              "focus": "Push, Pull, Core",
+              "exercises": [
+                {"name": "Diamond Push-ups", "sets": 4, "reps": "12", "rest_sec": 30, "muscle_group": "triceps", "equipment": "none"},
+                {"name": "Pike Push-ups", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "shoulders", "equipment": "none"},
+                {"name": "Inverted Rows (Table)", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "back", "equipment": "none"},
+                {"name": "V-ups", "sets": 3, "reps": "15", "rest_sec": 20, "muscle_group": "core", "equipment": "none"},
+                {"name": "Plank (Side)", "sets": 3, "reps": "30 sec each", "rest_sec": 20, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Tabata Finisher",
+              "focus": "Full Body Metabolic",
+              "exercises": [
+                {"name": "Burpees", "sets": 4, "reps": "20 sec on / 10 sec off", "rest_sec": 10, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Mountain Climbers", "sets": 4, "reps": "20 sec on / 10 sec off", "rest_sec": 10, "muscle_group": "core", "equipment": "none"},
+                {"name": "Squat Jumps", "sets": 4, "reps": "20 sec on / 10 sec off", "rest_sec": 10, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Push-ups", "sets": 4, "reps": "20 sec on / 10 sec off", "rest_sec": 10, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Skater Jumps", "sets": 4, "reps": "20 sec on / 10 sec off", "rest_sec": 10, "muscle_group": "legs", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 5,
+              "name": "Active Recovery + Mobility",
+              "focus": "Flexibility, Light Cardio",
+              "exercises": [
+                {"name": "Yoga Flow (Sun Salutation)", "sets": 3, "reps": "5 rounds", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Hip Opener Stretches", "sets": 1, "reps": "5 min", "rest_sec": 0, "muscle_group": "hips", "equipment": "none"},
+                {"name": "Light Walk / Jog", "sets": 1, "reps": "15 min", "rest_sec": 0, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Foam Rolling (if available)", "sets": 1, "reps": "10 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            }
+          ]
+        },
+        "basic": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Push + HIIT",
+              "focus": "Chest, Shoulders, Triceps",
+              "exercises": [
+                {"name": "Dumbbell Floor Press", "sets": 4, "reps": "12", "rest_sec": 45, "muscle_group": "chest", "equipment": "dumbbell"},
+                {"name": "Dumbbell Arnold Press", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "shoulders", "equipment": "dumbbell"},
+                {"name": "Dumbbell Tricep Overhead Extension", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "triceps", "equipment": "dumbbell"},
+                {"name": "Band Push-ups", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "chest", "equipment": "band"},
+                {"name": "Burpees", "sets": 4, "reps": "10", "rest_sec": 30, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Pull + Core",
+              "focus": "Back, Biceps, Core",
+              "exercises": [
+                {"name": "Dumbbell Bent Over Rows", "sets": 4, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "dumbbell"},
+                {"name": "Dumbbell Bicep Curls", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "biceps", "equipment": "dumbbell"},
+                {"name": "Band Face Pulls", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "rear_delts", "equipment": "band"},
+                {"name": "Dumbbell Renegade Rows", "sets": 3, "reps": "10 each", "rest_sec": 45, "muscle_group": "back", "equipment": "dumbbell"},
+                {"name": "Ab Rollout (Dumbbell)", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "core", "equipment": "dumbbell"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Legs",
+              "focus": "Quads, Hamstrings, Glutes",
+              "exercises": [
+                {"name": "Dumbbell Goblet Squats", "sets": 4, "reps": "12", "rest_sec": 45, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Dumbbell Romanian Deadlift", "sets": 4, "reps": "10", "rest_sec": 45, "muscle_group": "hamstrings", "equipment": "dumbbell"},
+                {"name": "Banded Lateral Walks", "sets": 3, "reps": "15 each", "rest_sec": 30, "muscle_group": "glutes", "equipment": "band"},
+                {"name": "Dumbbell Bulgarian Split Squat", "sets": 3, "reps": "10 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Jump Squats", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Full Body HIIT",
+              "focus": "Metabolic Conditioning",
+              "exercises": [
+                {"name": "Dumbbell Thrusters", "sets": 4, "reps": "10", "rest_sec": 30, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Dumbbell Swings", "sets": 4, "reps": "15", "rest_sec": 30, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Band Sprints (in place)", "sets": 4, "reps": "30 sec", "rest_sec": 15, "muscle_group": "cardio", "equipment": "band"},
+                {"name": "Dumbbell Man Makers", "sets": 3, "reps": "8", "rest_sec": 45, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Russian Twists", "sets": 3, "reps": "20", "rest_sec": 20, "muscle_group": "core", "equipment": "dumbbell"}
+              ]
+            },
+            {
+              "day": 5,
+              "name": "Core + Cardio",
+              "focus": "Core, Conditioning",
+              "exercises": [
+                {"name": "Dumbbell Woodchops", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "dumbbell"},
+                {"name": "Band Pallof Press", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "band"},
+                {"name": "High Knees", "sets": 4, "reps": "45 sec", "rest_sec": 15, "muscle_group": "cardio", "equipment": "none"},
+                {"name": "Plank (Weighted)", "sets": 3, "reps": "45 sec", "rest_sec": 20, "muscle_group": "core", "equipment": "dumbbell"},
+                {"name": "Burpees", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            }
+          ]
+        },
+        "full_gym": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Push",
+              "focus": "Chest, Shoulders, Triceps",
+              "exercises": [
+                {"name": "Barbell Bench Press", "sets": 4, "reps": "10", "rest_sec": 60, "muscle_group": "chest", "equipment": "barbell"},
+                {"name": "Incline Dumbbell Press", "sets": 3, "reps": "12", "rest_sec": 60, "muscle_group": "chest", "equipment": "dumbbell"},
+                {"name": "Cable Flyes", "sets": 3, "reps": "15", "rest_sec": 45, "muscle_group": "chest", "equipment": "cable"},
+                {"name": "Overhead Press", "sets": 3, "reps": "10", "rest_sec": 60, "muscle_group": "shoulders", "equipment": "barbell"},
+                {"name": "Tricep Rope Pushdowns", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "triceps", "equipment": "cable"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Pull",
+              "focus": "Back, Biceps",
+              "exercises": [
+                {"name": "Lat Pulldown", "sets": 4, "reps": "12", "rest_sec": 60, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Barbell Rows", "sets": 4, "reps": "10", "rest_sec": 60, "muscle_group": "back", "equipment": "barbell"},
+                {"name": "Face Pulls", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "rear_delts", "equipment": "cable"},
+                {"name": "Dumbbell Curls", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "biceps", "equipment": "dumbbell"},
+                {"name": "Hammer Curls", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "biceps", "equipment": "dumbbell"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Legs",
+              "focus": "Quads, Hamstrings, Glutes",
+              "exercises": [
+                {"name": "Barbell Squats", "sets": 4, "reps": "10", "rest_sec": 90, "muscle_group": "legs", "equipment": "barbell"},
+                {"name": "Leg Press", "sets": 4, "reps": "12", "rest_sec": 60, "muscle_group": "legs", "equipment": "machine"},
+                {"name": "Romanian Deadlift", "sets": 3, "reps": "12", "rest_sec": 60, "muscle_group": "hamstrings", "equipment": "barbell"},
+                {"name": "Leg Curls", "sets": 3, "reps": "15", "rest_sec": 45, "muscle_group": "hamstrings", "equipment": "machine"},
+                {"name": "Leg Extensions", "sets": 3, "reps": "15", "rest_sec": 45, "muscle_group": "quads", "equipment": "machine"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "HIIT Cardio",
+              "focus": "Metabolic Conditioning",
+              "exercises": [
+                {"name": "Treadmill Sprints", "sets": 10, "reps": "30 sec on / 30 sec off", "rest_sec": 30, "muscle_group": "cardio", "equipment": "treadmill"},
+                {"name": "Kettlebell Swings", "sets": 4, "reps": "15", "rest_sec": 30, "muscle_group": "full_body", "equipment": "kettlebell"},
+                {"name": "Battle Ropes", "sets": 4, "reps": "30 sec", "rest_sec": 30, "muscle_group": "full_body", "equipment": "battle_ropes"},
+                {"name": "Box Jumps", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "legs", "equipment": "box"},
+                {"name": "Sled Push", "sets": 3, "reps": "20 meters", "rest_sec": 60, "muscle_group": "full_body", "equipment": "sled"}
+              ]
+            },
+            {
+              "day": 5,
+              "name": "Full Body + Core",
+              "focus": "Compound Movements, Core",
+              "exercises": [
+                {"name": "Deadlift", "sets": 4, "reps": "8", "rest_sec": 90, "muscle_group": "full_body", "equipment": "barbell"},
+                {"name": "Dumbbell Thrusters", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Cable Woodchops", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "cable"},
+                {"name": "Hanging Leg Raises", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "core", "equipment": "pull_up_bar"},
+                {"name": "Farmer's Walk", "sets": 3, "reps": "30 sec", "rest_sec": 45, "muscle_group": "full_body", "equipment": "dumbbell"}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "advanced": {
+      "equipment": {
+        "none": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Plyo Power",
+              "focus": "Explosive Full Body",
+              "exercises": [
+                {"name": "Clap Push-ups", "sets": 4, "reps": "12", "rest_sec": 30, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Tuck Jump Burpees", "sets": 4, "reps": "10", "rest_sec": 30, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Pistol Squats", "sets": 4, "reps": "8 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"},
+                {"name": "L-sit Hold", "sets": 3, "reps": "20 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "none"},
+                {"name": "Handstand Push-ups (Wall)", "sets": 3, "reps": "8", "rest_sec": 60, "muscle_group": "shoulders", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Endurance HIIT",
+              "focus": "Stamina, Cardio",
+              "exercises": [
+                {"name": "Burpee Box Jump (to chair)", "sets": 5, "reps": "8", "rest_sec": 20, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Mountain Climber Sprints", "sets": 5, "reps": "45 sec", "rest_sec": 15, "muscle_group": "core", "equipment": "none"},
+                {"name": "Jump Lunges", "sets": 4, "reps": "12 each", "rest_sec": 20, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Spider-Man Push-ups", "sets": 4, "reps": "10 each", "rest_sec": 30, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Skater Jumps", "sets": 4, "reps": "15 each", "rest_sec": 15, "muscle_group": "legs", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Strength Endurance",
+              "focus": "Upper Body, Core",
+              "exercises": [
+                {"name": "Archer Push-ups", "sets": 4, "reps": "8 each", "rest_sec": 45, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Muscle-up Negatives", "sets": 3, "reps": "5", "rest_sec": 60, "muscle_group": "back", "equipment": "none"},
+                {"name": "Dragon Flags", "sets": 3, "reps": "8", "rest_sec": 45, "muscle_group": "core", "equipment": "none"},
+                {"name": "Decline Push-ups", "sets": 4, "reps": "15", "rest_sec": 30, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Hanging Windshield Wipers", "sets": 3, "reps": "8 each", "rest_sec": 45, "muscle_group": "core", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "Legs + Plyo",
+              "focus": "Legs, Explosive Power",
+              "exercises": [
+                {"name": "Shrimp Squats", "sets": 4, "reps": "6 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Depth Jumps", "sets": 4, "reps": "8", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Nordic Curl Negatives", "sets": 3, "reps": "6", "rest_sec": 60, "muscle_group": "hamstrings", "equipment": "none"},
+                {"name": "Single Leg Box Squat", "sets": 3, "reps": "8 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Broad Jumps", "sets": 4, "reps": "6", "rest_sec": 45, "muscle_group": "legs", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 5,
+              "name": "Metabolic Finisher",
+              "focus": "Full Body Burnout",
+              "exercises": [
+                {"name": "Tabata Burpees", "sets": 8, "reps": "20 sec on / 10 sec off", "rest_sec": 10, "muscle_group": "full_body", "equipment": "none"},
+                {"name": "Plank Variations (4-way)", "sets": 4, "reps": "30 sec each", "rest_sec": 0, "muscle_group": "core", "equipment": "none"},
+                {"name": "Push-up Ladder (1-10)", "sets": 1, "reps": "55 total", "rest_sec": 0, "muscle_group": "chest", "equipment": "none"},
+                {"name": "Squat Hold", "sets": 3, "reps": "45 sec", "rest_sec": 30, "muscle_group": "legs", "equipment": "none"},
+                {"name": "Cool Down Stretching", "sets": 1, "reps": "10 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            }
+          ]
+        },
+        "basic": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Heavy Push",
+              "focus": "Chest, Shoulders, Triceps",
+              "exercises": [
+                {"name": "Heavy Dumbbell Floor Press", "sets": 5, "reps": "8", "rest_sec": 60, "muscle_group": "chest", "equipment": "dumbbell"},
+                {"name": "Dumbbell Z-Press", "sets": 4, "reps": "8", "rest_sec": 60, "muscle_group": "shoulders", "equipment": "dumbbell"},
+                {"name": "Band-Resisted Push-ups", "sets": 4, "reps": "15", "rest_sec": 30, "muscle_group": "chest", "equipment": "band"},
+                {"name": "Dumbbell Skull Crushers", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "triceps", "equipment": "dumbbell"},
+                {"name": "Diamond Push-ups", "sets": 3, "reps": "failure", "rest_sec": 30, "muscle_group": "triceps", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Heavy Pull",
+              "focus": "Back, Biceps",
+              "exercises": [
+                {"name": "Heavy Dumbbell Rows", "sets": 5, "reps": "8 each", "rest_sec": 60, "muscle_group": "back", "equipment": "dumbbell"},
+                {"name": "Band Pull-ups (Assisted)", "sets": 4, "reps": "10", "rest_sec": 60, "muscle_group": "back", "equipment": "band"},
+                {"name": "Dumbbell Reverse Flyes", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "rear_delts", "equipment": "dumbbell"},
+                {"name": "Concentration Curls", "sets": 3, "reps": "10 each", "rest_sec": 30, "muscle_group": "biceps", "equipment": "dumbbell"},
+                {"name": "Band Face Pulls", "sets": 3, "reps": "15", "rest_sec": 20, "muscle_group": "rear_delts", "equipment": "band"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Legs + Plyo",
+              "focus": "Quads, Hamstrings, Glutes",
+              "exercises": [
+                {"name": "Dumbbell Bulgarian Split Squat", "sets": 4, "reps": "10 each", "rest_sec": 60, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Dumbbell Sumo Deadlift", "sets": 4, "reps": "10", "rest_sec": 60, "muscle_group": "hamstrings", "equipment": "dumbbell"},
+                {"name": "Banded Hip Thrusts", "sets": 4, "reps": "15", "rest_sec": 45, "muscle_group": "glutes", "equipment": "band"},
+                {"name": "Jump Squats (Dumbbell)", "sets": 3, "reps": "10", "rest_sec": 45, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Single Leg Calf Raise", "sets": 4, "reps": "15 each", "rest_sec": 20, "muscle_group": "calves", "equipment": "dumbbell"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "HIIT + Conditioning",
+              "focus": "Metabolic, Cardio",
+              "exercises": [
+                {"name": "Dumbbell Man Makers", "sets": 4, "reps": "8", "rest_sec": 30, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Dumbbell Snatch", "sets": 4, "reps": "8 each", "rest_sec": 30, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Band Sprints", "sets": 5, "reps": "30 sec", "rest_sec": 15, "muscle_group": "cardio", "equipment": "band"},
+                {"name": "Dumbbell Devil Press", "sets": 3, "reps": "8", "rest_sec": 45, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Burpees", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            },
+            {
+              "day": 5,
+              "name": "Core + Mobility",
+              "focus": "Core Strength, Flexibility",
+              "exercises": [
+                {"name": "Weighted Plank (Dumbbell on back)", "sets": 4, "reps": "45 sec", "rest_sec": 30, "muscle_group": "core", "equipment": "dumbbell"},
+                {"name": "Turkish Get-up", "sets": 3, "reps": "3 each", "rest_sec": 60, "muscle_group": "full_body", "equipment": "dumbbell"},
+                {"name": "Band Anti-Rotation Press", "sets": 3, "reps": "12 each", "rest_sec": 30, "muscle_group": "core", "equipment": "band"},
+                {"name": "Windmill (Dumbbell)", "sets": 3, "reps": "6 each", "rest_sec": 30, "muscle_group": "core", "equipment": "dumbbell"},
+                {"name": "Deep Stretching Routine", "sets": 1, "reps": "10 min", "rest_sec": 0, "muscle_group": "full_body", "equipment": "none"}
+              ]
+            }
+          ]
+        },
+        "full_gym": {
+          "days": [
+            {
+              "day": 1,
+              "name": "Heavy Push",
+              "focus": "Chest, Shoulders, Triceps",
+              "exercises": [
+                {"name": "Barbell Bench Press", "sets": 5, "reps": "6-8", "rest_sec": 90, "muscle_group": "chest", "equipment": "barbell"},
+                {"name": "Incline Dumbbell Press", "sets": 4, "reps": "10", "rest_sec": 60, "muscle_group": "chest", "equipment": "dumbbell"},
+                {"name": "Overhead Press", "sets": 4, "reps": "8", "rest_sec": 60, "muscle_group": "shoulders", "equipment": "barbell"},
+                {"name": "Cable Crossovers", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "chest", "equipment": "cable"},
+                {"name": "Skull Crushers", "sets": 3, "reps": "12", "rest_sec": 30, "muscle_group": "triceps", "equipment": "ez_bar"},
+                {"name": "Lateral Raises (Drop Set)", "sets": 3, "reps": "12+8+6", "rest_sec": 30, "muscle_group": "shoulders", "equipment": "dumbbell"}
+              ]
+            },
+            {
+              "day": 2,
+              "name": "Heavy Pull",
+              "focus": "Back, Biceps, Rear Delts",
+              "exercises": [
+                {"name": "Deadlift", "sets": 5, "reps": "5", "rest_sec": 120, "muscle_group": "back", "equipment": "barbell"},
+                {"name": "Weighted Pull-ups", "sets": 4, "reps": "8", "rest_sec": 60, "muscle_group": "back", "equipment": "pull_up_bar"},
+                {"name": "Seated Cable Row", "sets": 4, "reps": "10", "rest_sec": 60, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Face Pulls", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "rear_delts", "equipment": "cable"},
+                {"name": "Barbell Curls", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "biceps", "equipment": "barbell"},
+                {"name": "Incline Dumbbell Curls", "sets": 3, "reps": "10", "rest_sec": 30, "muscle_group": "biceps", "equipment": "dumbbell"}
+              ]
+            },
+            {
+              "day": 3,
+              "name": "Heavy Legs",
+              "focus": "Quads, Hamstrings, Glutes",
+              "exercises": [
+                {"name": "Barbell Squats", "sets": 5, "reps": "6-8", "rest_sec": 120, "muscle_group": "legs", "equipment": "barbell"},
+                {"name": "Hack Squat", "sets": 4, "reps": "10", "rest_sec": 60, "muscle_group": "quads", "equipment": "machine"},
+                {"name": "Romanian Deadlift", "sets": 4, "reps": "10", "rest_sec": 60, "muscle_group": "hamstrings", "equipment": "barbell"},
+                {"name": "Leg Press", "sets": 3, "reps": "12", "rest_sec": 60, "muscle_group": "legs", "equipment": "machine"},
+                {"name": "Walking Lunges", "sets": 3, "reps": "12 each", "rest_sec": 45, "muscle_group": "legs", "equipment": "dumbbell"},
+                {"name": "Calf Raises", "sets": 5, "reps": "15", "rest_sec": 30, "muscle_group": "calves", "equipment": "machine"}
+              ]
+            },
+            {
+              "day": 4,
+              "name": "HIIT + Conditioning",
+              "focus": "Cardio, Full Body",
+              "exercises": [
+                {"name": "Assault Bike Intervals", "sets": 10, "reps": "30 sec on / 30 sec off", "rest_sec": 30, "muscle_group": "cardio", "equipment": "assault_bike"},
+                {"name": "Kettlebell Swings", "sets": 5, "reps": "15", "rest_sec": 20, "muscle_group": "full_body", "equipment": "kettlebell"},
+                {"name": "Battle Ropes", "sets": 5, "reps": "30 sec", "rest_sec": 20, "muscle_group": "full_body", "equipment": "battle_ropes"},
+                {"name": "Sled Push", "sets": 4, "reps": "20 meters", "rest_sec": 45, "muscle_group": "legs", "equipment": "sled"},
+                {"name": "Box Jumps", "sets": 4, "reps": "10", "rest_sec": 30, "muscle_group": "legs", "equipment": "box"}
+              ]
+            },
+            {
+              "day": 5,
+              "name": "Upper Body Hypertrophy + Core",
+              "focus": "Volume Work, Core",
+              "exercises": [
+                {"name": "Dumbbell Bench Press", "sets": 4, "reps": "12", "rest_sec": 45, "muscle_group": "chest", "equipment": "dumbbell"},
+                {"name": "Cable Rows", "sets": 4, "reps": "12", "rest_sec": 45, "muscle_group": "back", "equipment": "cable"},
+                {"name": "Dumbbell Lateral Raise", "sets": 4, "reps": "15", "rest_sec": 30, "muscle_group": "shoulders", "equipment": "dumbbell"},
+                {"name": "Hanging Leg Raises", "sets": 4, "reps": "12", "rest_sec": 30, "muscle_group": "core", "equipment": "pull_up_bar"},
+                {"name": "Cable Crunches", "sets": 3, "reps": "15", "rest_sec": 30, "muscle_group": "core", "equipment": "cable"},
+                {"name": "Farmer's Walk", "sets": 3, "reps": "40 meters", "rest_sec": 45, "muscle_group": "full_body", "equipment": "dumbbell"}
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

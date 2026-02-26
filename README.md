@@ -1,2 +1,149 @@
-# fitness-agent
-An AI-powered fitness agent focused on personalized workout planning. It creates adaptive training programs based on fitness level, goals, equipment, and performance, while tracking workouts, progress, and consistency through an intuitive conversational interface.
+# FitCoach AI
+
+An AI-powered fitness coach built with **Google ADK** that provides personalized workout plans, diet plans, and YouTube video recommendations through a conversational interface.
+
+## Features
+
+- **Personalized Onboarding** -- Collects user profile (age, weight, height, goals, preferences) through a sidebar form
+- **Workout Plans** -- Day-wise training programs tailored to goal, fitness level, and equipment access
+- **Diet Plans** -- Calorie-targeted meal plans with macro breakdowns, supporting Indian/Western cuisines and veg/non-veg/vegan preferences
+- **YouTube Recommendations** -- Curated video suggestions (with embedded players) matched to your goal and level
+- **Smart Dashboard** -- BMI, TDEE, macros, weight tracking, and activity streaks
+- **Authentication** -- Optional Google and GitHub OAuth login
+- **Multi-LLM Support** -- Works with Gemini (cloud) or Ollama (local)
+
+## Project Structure
+
+```
+fitness-agent/
+├── fitness_agent/              # ADK agent package
+│   ├── agent.py                # Agent definition (root_agent)
+│   ├── .env                    # API key + model config (not committed)
+│   ├── tools/
+│   │   ├── workout_planner.py
+│   │   ├── diet_planner.py
+│   │   └── youtube_recommender.py
+│   ├── models/
+│   │   └── schemas.py          # Pydantic data models
+│   ├── utils/
+│   │   ├── calculations.py     # BMI, TDEE, macro calculations
+│   │   └── data_loader.py      # JSON data loading + filtering
+│   ├── .env.example            # Template for agent config
+│   └── data/
+│       ├── workouts/           # Workout plans by goal (JSON)
+│       ├── diet_plans/         # Diet plans by goal (JSON)
+│       └── youtube_videos/     # Video recommendations by goal (JSON)
+├── app.py                      # Streamlit UI
+├── auth.py                     # OAuth module (Google + GitHub)
+├── .streamlit/
+│   ├── secrets.toml            # Auth credentials (not committed)
+│   └── secrets.example.toml    # Template for auth setup
+├── start.sh                    # Launch script
+├── FLOW.md                     # Architecture documentation
+└── requirements.txt
+```
+
+## Quick Start
+
+### 1. Clone and setup
+
+```bash
+git clone <your-repo-url>
+cd fitness-agent
+
+python -m venv .venv
+source .venv/bin/activate  # macOS/Linux
+# .venv\Scripts\activate   # Windows
+
+pip install -r requirements.txt
+```
+
+### 2. Configure the agent
+
+**Option A: Gemini (cloud)**
+
+Get a key from [Google AI Studio](https://aistudio.google.com/app/apikey):
+
+```bash
+cp fitness_agent/.env.example fitness_agent/.env
+# Edit fitness_agent/.env and set GOOGLE_API_KEY
+```
+
+**Option B: Ollama (local)**
+
+Install [Ollama](https://ollama.com), pull a model, then configure:
+
+```bash
+# In fitness_agent/.env
+MODEL_PROVIDER=ollama
+OLLAMA_MODEL=llama3.1:8b
+OLLAMA_BASE_URL=http://localhost:11434
+```
+
+### 3. Run the app
+
+```bash
+streamlit run app.py
+```
+
+Opens at [http://localhost:8501](http://localhost:8501).
+
+Or use the launch script for both ADK UI and Streamlit:
+
+```bash
+./start.sh
+```
+
+### 4. (Optional) Enable authentication
+
+To require Google/GitHub login:
+
+```bash
+cp .streamlit/secrets.example.toml .streamlit/secrets.toml
+```
+
+Edit `.streamlit/secrets.toml`:
+1. Set `auth_enabled = true`
+2. Fill in your Google OAuth credentials ([setup guide](https://console.cloud.google.com/auth/clients))
+3. Fill in your GitHub OAuth credentials ([setup guide](https://github.com/settings/developers))
+4. Set `cookie_secret` to a random string
+
+You can enable one or both providers.
+
+## Adding Your Data
+
+### YouTube Videos
+
+Add real videos to `fitness_agent/data/youtube_videos/*.json`:
+
+```json
+{
+  "title": "Video Title",
+  "url": "https://www.youtube.com/watch?v=VIDEO_ID",
+  "type": "workout",
+  "level": "beginner",
+  "duration_min": 15,
+  "tags": ["hiit", "no-equipment"],
+  "description": "Brief description"
+}
+```
+
+### Workout / Diet Plans
+
+Edit JSON files in `fitness_agent/data/workouts/` and `fitness_agent/data/diet_plans/`. See `FLOW.md` for schemas.
+
+## Tech Stack
+
+| Component        | Technology                    |
+|------------------|-------------------------------|
+| Agent Framework  | Google ADK                    |
+| LLM              | Gemini 2.5 Flash / Ollama    |
+| Frontend         | Streamlit                     |
+| Authentication   | Streamlit OIDC + OAuth2       |
+| Language         | Python 3.10+                  |
+| Data Validation  | Pydantic                      |
+| Data Storage     | Local JSON files              |
+
+## Documentation
+
+See [FLOW.md](FLOW.md) for the full architecture document.

@@ -1,0 +1,113 @@
+{
+  "goal": "health_maintenance",
+  "videos": [
+    {
+      "title": "30 Min Full Body Stretch - Flexibility Routine",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "all",
+      "duration_min": 30,
+      "tags": ["stretching", "flexibility", "recovery"],
+      "description": "Complete stretching routine for mobility and flexibility"
+    },
+    {
+      "title": "Balanced Diet for Long Term Health - What to Eat",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 14,
+      "tags": ["balanced-diet", "nutrition", "longevity"],
+      "description": "Sustainable eating habits for lifelong health"
+    },
+    {
+      "title": "Low Impact Cardio - 25 Min Joint Friendly Workout",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "beginner",
+      "duration_min": 25,
+      "tags": ["low-impact", "cardio", "joint-friendly"],
+      "description": "Heart healthy workout that's easy on the joints"
+    },
+    {
+      "title": "Meal Prep for Busy People - Healthy & Simple",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 20,
+      "tags": ["meal-prep", "healthy", "simple"],
+      "description": "Quick meal prep that fits a busy lifestyle"
+    },
+    {
+      "title": "Morning Yoga Flow - 20 Min Wake Up Routine",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "beginner",
+      "duration_min": 20,
+      "tags": ["yoga", "morning", "mindfulness"],
+      "description": "Gentle yoga to start your day with energy and focus"
+    },
+    {
+      "title": "Anti-Inflammatory Foods - What to Eat for Health",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 12,
+      "tags": ["anti-inflammatory", "nutrition", "health"],
+      "description": "Foods that support reduced inflammation and better health"
+    },
+    {
+      "title": "Walking Workout - 30 Min Indoor Walk",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "all",
+      "duration_min": 30,
+      "tags": ["walking", "low-impact", "cardio"],
+      "description": "Simple walking workout for daily movement"
+    },
+    {
+      "title": "Portion Control & Mindful Eating - How to Practice",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 11,
+      "tags": ["portion-control", "mindful-eating", "habits"],
+      "description": "Develop healthy eating habits without strict dieting"
+    },
+    {
+      "title": "Strength Maintenance Workout - 35 Min Full Body",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 35,
+      "tags": ["strength", "full-body", "maintenance"],
+      "description": "Keep your strength and muscle with this balanced routine"
+    },
+    {
+      "title": "Gut Health Foods - Improve Digestion Naturally",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 9,
+      "tags": ["gut-health", "digestion", "probiotics"],
+      "description": "Foods that support a healthy gut and digestion"
+    },
+    {
+      "title": "Posture Fix - 15 Min Mobility & Stretching",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "all",
+      "duration_min": 15,
+      "tags": ["posture", "mobility", "desk-workers"],
+      "description": "Fix rounded shoulders and improve posture"
+    },
+    {
+      "title": "Weekly Healthy Habits - Sustainable Lifestyle Tips",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 13,
+      "tags": ["habits", "lifestyle", "sustainability"],
+      "description": "Small changes for lasting health and wellness"
+    }
+  ]
+}

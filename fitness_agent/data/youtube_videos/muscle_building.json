@@ -1,0 +1,210 @@
+{
+  "goal": "muscle_building",
+  "videos": [
+    {
+      "title": "Beginner Upper Body Workout - Build Muscle at Home",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "beginner",
+      "duration_min": 35,
+      "tags": ["upper-body", "home-workout", "dumbbells"],
+      "description": "Complete upper body routine for muscle growth with minimal equipment"
+    },
+    {
+      "title": "How Much Protein Do You Need to Build Muscle?",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 11,
+      "tags": ["protein", "nutrition", "muscle-growth"],
+      "description": "Science-based protein requirements for muscle building"
+    },
+    {
+      "title": "Leg Day Workout - Squats, Lunges & Glutes",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 45,
+      "tags": ["legs", "squats", "glutes"],
+      "description": "Complete lower body hypertrophy workout"
+    },
+    {
+      "title": "Meal Prep for Muscle Gain - High Protein Recipes",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 22,
+      "tags": ["meal-prep", "high-protein", "bulking"],
+      "description": "Batch cook high protein meals to support muscle growth"
+    },
+    {
+      "title": "Perfect Form: Bench Press, Rows & Overhead Press",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "beginner",
+      "duration_min": 15,
+      "tags": ["form", "technique", "compound-lifts"],
+      "description": "Master the big compound movements for maximum muscle activation"
+    },
+    {
+      "title": "Push Pull Legs Split - 6 Day Program Explained",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 18,
+      "tags": ["ppl", "program", "split"],
+      "description": "How to structure your training for optimal muscle growth"
+    },
+    {
+      "title": "Best Foods for Building Muscle - Bulking Diet Guide",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 16,
+      "tags": ["bulking", "nutrition", "muscle-foods"],
+      "description": "What to eat when trying to build muscle mass"
+    },
+    {
+      "title": "Advanced Chest & Triceps - Gym Workout",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "advanced",
+      "duration_min": 50,
+      "tags": ["chest", "triceps", "gym"],
+      "description": "Intense push day for experienced lifters"
+    },
+    {
+      "title": "Pre & Post Workout Nutrition - When to Eat",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 10,
+      "tags": ["timing", "pre-workout", "recovery"],
+      "description": "Optimize your nutrition around training for better gains"
+    },
+    {
+      "title": "Back & Biceps - Complete Workout Follow Along",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 40,
+      "tags": ["back", "biceps", "pull-day"],
+      "description": "Full pull day workout for back and arm development"
+    },
+    {
+      "title": "Progressive Overload - How to Get Stronger & Bigger",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "all",
+      "duration_min": 12,
+      "tags": ["progressive-overload", "education", "principles"],
+      "description": "The key principle for continuous muscle growth"
+    },
+    {
+      "title": "High Calorie Shakes for Muscle Gain - Easy Recipes",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 8,
+      "tags": ["shakes", "calories", "easy-meals"],
+      "description": "Quick high calorie smoothies to hit your surplus"
+    },
+    {
+      "title": "Gurumann Mass Building Program - Overview",
+      "url": "https://youtu.be/bQ00EQtbBn0",
+      "type": "workout",
+      "level": "all",
+      "duration_min": 15,
+      "tags": ["gurumann", "mass-building", "overview", "structured-plan"],
+      "description": "Complete mass/muscle building program overview by Guru Mann covering training split and nutrition strategy",
+      "instructor": "Guru Mann",
+      "playlist": "https://youtube.com/playlist?list=PLPEuMohpXw6dw90EGwV9VF1CTYNCJ8-dz&si=jrKHHmHe86-Q7eyY"
+    },
+    {
+      "title": "Gurumann Mass Building - Monday: Chest & Biceps",
+      "url": "https://youtu.be/AYISD5aMHP8",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "mass-building", "chest", "biceps", "monday", "day-1"],
+      "description": "Day 1 (Monday) - Chest and Biceps workout from Guru Mann's mass building program",
+      "instructor": "Guru Mann",
+      "program_day": "Monday"
+    },
+    {
+      "title": "Gurumann Mass Building - Tuesday: Legs",
+      "url": "https://youtu.be/bA5QctmEzy0",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "mass-building", "legs", "tuesday", "day-2"],
+      "description": "Day 2 (Tuesday) - Legs workout from Guru Mann's mass building program",
+      "instructor": "Guru Mann",
+      "program_day": "Tuesday"
+    },
+    {
+      "title": "Gurumann Mass Building - Wednesday: Shoulders & Traps",
+      "url": "https://youtu.be/-sWt4Xc2BHc",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "mass-building", "shoulders", "traps", "wednesday", "day-3"],
+      "description": "Day 3 (Wednesday) - Shoulders and Traps workout from Guru Mann's mass building program",
+      "instructor": "Guru Mann",
+      "program_day": "Wednesday"
+    },
+    {
+      "title": "Gurumann Mass Building - Thursday: Arms",
+      "url": "https://youtu.be/xYy-KF7RKCw",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "mass-building", "arms", "thursday", "day-4"],
+      "description": "Day 4 (Thursday) - Arms workout from Guru Mann's mass building program",
+      "instructor": "Guru Mann",
+      "program_day": "Thursday"
+    },
+    {
+      "title": "Gurumann Mass Building - Friday: Abs & Cardio",
+      "url": "https://youtu.be/JWbbplwQPzo",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "mass-building", "abs", "cardio", "friday", "day-5"],
+      "description": "Day 5 (Friday) - Abs and Cardio workout from Guru Mann's mass building program",
+      "instructor": "Guru Mann",
+      "program_day": "Friday"
+    },
+    {
+      "title": "Gurumann Mass Building - Saturday: Back & Triceps",
+      "url": "https://youtu.be/CHy2Vct7EqQ",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "mass-building", "back", "triceps", "saturday", "day-6"],
+      "description": "Day 6 (Saturday) - Back and Triceps workout from Guru Mann's mass building program",
+      "instructor": "Guru Mann",
+      "program_day": "Saturday"
+    },
+    {
+      "title": "Gurumann Bulk Up Supplement Stack",
+      "url": "https://youtu.be/NKnV66UFJM0",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 12,
+      "tags": ["gurumann", "mass-building", "supplements", "stack", "bulking"],
+      "description": "Recommended supplement stack for Guru Mann's bulk up / mass building program",
+      "instructor": "Guru Mann"
+    },
+    {
+      "title": "Gurumann Bulk Up Diet Plan",
+      "url": "https://youtu.be/9TBldph11w4",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 15,
+      "tags": ["gurumann", "mass-building", "diet-plan", "bulking", "meal-plan"],
+      "description": "Complete bulk up diet plan with meals and macros by Guru Mann",
+      "instructor": "Guru Mann"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "goal": "weight_gain",
+  "videos": [
+    {
+      "title": "How to Gain Weight Fast - Complete Guide for Hardgainers",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 15,
+      "tags": ["hardgainer", "weight-gain", "guide"],
+      "description": "Strategies for people who struggle to gain weight"
+    },
+    {
+      "title": "Full Body Workout for Weight Gain - Build Mass",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "beginner",
+      "duration_min": 40,
+      "tags": ["full-body", "mass-building", "compound"],
+      "description": "Compound movement focused workout for gaining mass"
+    },
+    {
+      "title": "High Calorie Meal Prep - 3500+ Calories Per Day",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 25,
+      "tags": ["meal-prep", "high-calorie", "bulking"],
+      "description": "Batch cook calorie-dense meals for weight gain"
+    },
+    {
+      "title": "Best Calorie Dense Foods - Eat More Without Feeling Full",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 11,
+      "tags": ["calorie-dense", "nutrition", "tips"],
+      "description": "Foods that pack maximum calories in smaller portions"
+    },
+    {
+      "title": "5x5 Strength Program - Build Size & Strength",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "beginner",
+      "duration_min": 20,
+      "tags": ["5x5", "strength", "program"],
+      "description": "Classic strength program for beginners to gain mass"
+    },
+    {
+      "title": "Mass Gainer Shakes - Homemade High Calorie Recipes",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 8,
+      "tags": ["shakes", "mass-gainer", "recipes"],
+      "description": "Make your own high calorie shakes at home"
+    },
+    {
+      "title": "Upper Lower Split - 4 Day Mass Building Program",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 45,
+      "tags": ["upper-lower", "split", "hypertrophy"],
+      "description": "Follow along upper body mass building workout"
+    },
+    {
+      "title": "How to Eat More - Appetite Tips for Underweight",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 13,
+      "tags": ["appetite", "eating-more", "tips"],
+      "description": "Practical tips to increase your food intake"
+    },
+    {
+      "title": "Heavy Compound Lifts - Form Guide for Mass",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "beginner",
+      "duration_min": 18,
+      "tags": ["form", "compound", "squat-deadlift"],
+      "description": "Proper technique for squats, deadlifts and bench"
+    },
+    {
+      "title": "Calorie Surplus Explained - How Much to Eat",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 10,
+      "tags": ["calorie-surplus", "science", "education"],
+      "description": "Understanding calorie surplus for healthy weight gain"
+    },
+    {
+      "title": "Leg Day for Mass - Squats & Accessories",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 50,
+      "tags": ["legs", "squats", "mass-building"],
+      "description": "Lower body workout focused on building size"
+    },
+    {
+      "title": "Quick High Calorie Snacks - Eat Between Meals",
+      "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 7,
+      "tags": ["snacks", "high-calorie", "easy"],
+      "description": "Simple snacks to add extra calories throughout the day"
+    }
+  ]
+}

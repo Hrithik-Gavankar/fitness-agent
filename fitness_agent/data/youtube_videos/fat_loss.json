@@ -1,0 +1,246 @@
+{
+  "goal": "fat_loss",
+  "videos": [
+    {
+      "title": "20 Min Fat Burning HIIT Workout - No Equipment",
+      "url": "https://www.youtube.com/watch?v=-hSma-BRzoo",
+      "type": "workout",
+      "level": "beginner",
+      "duration_min": 20,
+      "tags": ["hiit", "no-equipment", "full-body"],
+      "description": "High intensity interval training for beginners focusing on fat burn"
+    },
+    {
+      "title": "30 Min Full Body Fat Burn Workout - At Home",
+      "url": "https://www.youtube.com/watch?v=wSm_Rjkq5Kc",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["full-body", "cardio", "home-workout"],
+      "description": "Complete fat burning workout you can do at home with minimal space"
+    },
+    {
+      "title": "Meal Prep for Weight Loss - Fat Melting Diet Plan",
+      "url": "https://www.youtube.com/watch?v=o4JWr10bw48",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 15,
+      "tags": ["meal-prep", "calorie-deficit", "healthy-eating"],
+      "description": "Batch cooking healthy meals for the week to support fat loss goals"
+    },
+    {
+      "title": "Treadmill Fat Burn Workout - 25 Min HIIT",
+      "url": "https://www.youtube.com/watch?v=yepMNMzfrCE",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 25,
+      "tags": ["treadmill", "hiit", "cardio"],
+      "description": "Intense treadmill intervals to maximize calorie burn"
+    },
+    {
+      "title": "5 Amazing Foods for Fat Loss - Get Slim Fast",
+      "url": "https://www.youtube.com/watch?v=gjYVS8m91UU&t=77s",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 12,
+      "tags": ["nutrition", "fat-loss-foods", "diet-tips"],
+      "description": "Evidence-based nutrition guide for sustainable fat loss"
+    },
+    {
+      "title": "45 Min Advanced HIIT - Maximum Fat Burn",
+      "url": "https://www.youtube.com/watch?v=HzfHKN6rmpk",
+      "type": "workout",
+      "level": "advanced",
+      "duration_min": 45,
+      "tags": ["hiit", "advanced", "fat-burn"],
+      "description": "High intensity workout for experienced exercisers"
+    },
+    {
+      "title": "Proper Form: Burpees, Mountain Climbers & Jump Squats",
+      "url": "https://www.youtube.com/watch?v=KydS9yBT1mo",
+      "type": "workout",
+      "level": "beginner",
+      "duration_min": 10,
+      "tags": ["form", "technique", "compound-movements"],
+      "description": "Learn correct form for key fat burning exercises"
+    },
+    {
+      "title": "Low Calorie Meal Ideas - 500 Calorie Dinners",
+      "url": "https://www.youtube.com/watch?v=gLCYFCPThmg",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 18,
+      "tags": ["low-calorie", "recipes", "dinner-ideas"],
+      "description": "Satisfying low calorie dinner recipes for fat loss"
+    },
+    {
+      "title": "15 Min Tabata Workout - Quick Fat Burn",
+      "url": "https://www.youtube.com/watch?v=H_b9uLz5rIU",
+      "type": "workout",
+      "level": "all",
+      "duration_min": 15,
+      "tags": ["tabata", "quick-workout", "hiit"],
+      "description": "Short but effective Tabata style workout for busy schedules"
+    },
+    {
+      "title": "Calorie Deficit Explained - Science of Fat Loss",
+      "url": "https://www.youtube.com/watch?v=ZGTMUwEDBu4",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 14,
+      "tags": ["calorie-deficit", "science", "education"],
+      "description": "Understanding how calorie deficit drives fat loss"
+    },
+    {
+      "title": "Morning Fat Burn Routine - 20 Min Wake Up Workout",
+      "url": "https://www.youtube.com/watch?v=8ortypveAL0",
+      "type": "workout",
+      "level": "beginner",
+      "duration_min": 20,
+      "tags": ["morning-workout", "fat-burn", "energy"],
+      "description": "Start your day with an energizing fat burning workout"
+    },
+    {
+      "title": "Gurumann Fat Loss Program - Overview",
+      "url": "https://youtu.be/tPpEFwuRdEw",
+      "type": "workout",
+      "level": "all",
+      "duration_min": 15,
+      "tags": ["gurumann", "fat-loss-program", "overview", "structured-plan"],
+      "description": "Complete fat loss program overview by Guru Mann covering training and nutrition strategy",
+      "instructor": "Guru Mann",
+      "playlist": "https://youtube.com/playlist?list=PLPEuMohpXw6eW8k_8WDYKADqrmsmvYRiL&si=cpoWhqcJoBMO487p"
+    },
+    {
+      "title": "Gurumann Fat Loss Program - Monday Workout",
+      "url": "https://youtu.be/pYfcqca4vyE",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "fat-loss-program", "monday", "day-1"],
+      "description": "Day 1 (Monday) of Guru Mann's structured fat loss training program",
+      "instructor": "Guru Mann",
+      "program_day": "Monday"
+    },
+    {
+      "title": "Gurumann Fat Loss Program - Tuesday Workout",
+      "url": "https://youtu.be/zMmNFyyJyXE",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "fat-loss-program", "tuesday", "day-2"],
+      "description": "Day 2 (Tuesday) of Guru Mann's structured fat loss training program",
+      "instructor": "Guru Mann",
+      "program_day": "Tuesday"
+    },
+    {
+      "title": "Gurumann Fat Loss Program - Wednesday Workout",
+      "url": "https://youtu.be/rjA_3geaO5w",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "fat-loss-program", "wednesday", "day-3"],
+      "description": "Day 3 (Wednesday) of Guru Mann's structured fat loss training program",
+      "instructor": "Guru Mann",
+      "program_day": "Wednesday"
+    },
+    {
+      "title": "Gurumann Fat Loss Program - Thursday Workout",
+      "url": "https://youtu.be/9OmQN4LhF4o",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "fat-loss-program", "thursday", "day-4"],
+      "description": "Day 4 (Thursday) of Guru Mann's structured fat loss training program",
+      "instructor": "Guru Mann",
+      "program_day": "Thursday"
+    },
+    {
+      "title": "Gurumann Fat Loss Program - Friday Workout",
+      "url": "https://youtu.be/QebhDkaPZ6w",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "fat-loss-program", "friday", "day-5"],
+      "description": "Day 5 (Friday) of Guru Mann's structured fat loss training program",
+      "instructor": "Guru Mann",
+      "program_day": "Friday"
+    },
+    {
+      "title": "Gurumann Fat Loss Program - Saturday Workout",
+      "url": "https://youtu.be/pz6nLm7IE7Y",
+      "type": "workout",
+      "level": "intermediate",
+      "duration_min": 30,
+      "tags": ["gurumann", "fat-loss-program", "saturday", "day-6"],
+      "description": "Day 6 (Saturday) of Guru Mann's structured fat loss training program",
+      "instructor": "Guru Mann",
+      "program_day": "Saturday"
+    },
+    {
+      "title": "Gurumann Fat Loss Supplement Stack",
+      "url": "https://youtu.be/kPyrlqD16wI",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 12,
+      "tags": ["gurumann", "fat-loss-program", "supplements", "stack"],
+      "description": "Recommended supplement stack for the Guru Mann fat loss program",
+      "instructor": "Guru Mann"
+    },
+    {
+      "title": "Gurumann Fat Loss Breakfast",
+      "url": "https://youtu.be/AdPrYPZuTQM",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 10,
+      "tags": ["gurumann", "fat-loss-program", "breakfast", "meal-plan"],
+      "description": "Fat loss breakfast recipe and nutrition breakdown by Guru Mann",
+      "instructor": "Guru Mann",
+      "meal_type": "breakfast"
+    },
+    {
+      "title": "Gurumann Fat Loss Morning Snack",
+      "url": "https://youtu.be/jFuGFFzKCtM",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 8,
+      "tags": ["gurumann", "fat-loss-program", "snack", "meal-plan"],
+      "description": "Fat loss morning snack recipe and nutrition tips by Guru Mann",
+      "instructor": "Guru Mann",
+      "meal_type": "snack"
+    },
+    {
+      "title": "Gurumann Fat Loss Lunch",
+      "url": "https://youtu.be/5d9bIKFgr54",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 10,
+      "tags": ["gurumann", "fat-loss-program", "lunch", "meal-plan"],
+      "description": "Fat loss lunch recipe and meal prep guide by Guru Mann",
+      "instructor": "Guru Mann",
+      "meal_type": "lunch"
+    },
+    {
+      "title": "Gurumann Fat Loss Dinner",
+      "url": "https://youtu.be/nwrwGwz7KWQ",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 10,
+      "tags": ["gurumann", "fat-loss-program", "dinner", "meal-plan"],
+      "description": "Fat loss dinner recipe and nutrition breakdown by Guru Mann",
+      "instructor": "Guru Mann",
+      "meal_type": "dinner"
+    },
+    {
+      "title": "Gurumann Fat Loss Slow Digesting Protein",
+      "url": "https://youtu.be/Hd2fd3nAfrM",
+      "type": "diet",
+      "level": "all",
+      "duration_min": 8,
+      "tags": ["gurumann", "fat-loss-program", "protein", "slow-digesting", "pre-sleep"],
+      "description": "Slow digesting protein meal for fat loss - ideal before bed by Guru Mann",
+      "instructor": "Guru Mann",
+      "meal_type": "pre_sleep"
+    }
+  ]
+}

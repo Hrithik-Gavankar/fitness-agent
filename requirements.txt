@@ -1,0 +1,7 @@
+google-adk
+python-dotenv
+pydantic
+streamlit[auth]
+nest_asyncio
+litellm
+streamlit-oauth
