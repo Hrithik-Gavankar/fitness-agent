@@ -53,9 +53,11 @@ Open an issue with:
 
 ### Submitting Code
 
-1. **Create a branch** from `master`:
+1. **Create a branch** from `master` using the naming convention:
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feat/<your-username>/<issue-number>-short-desc
+   # Example:
+   git checkout -b feat/hrithik-gavankar/11-auth
    ```
 
 2. **Make your changes.** Follow the code style below.
@@ -65,16 +67,46 @@ Open an issue with:
    streamlit run app.py
    ```
 
-4. **Commit** with a clear message:
+4. **Commit** with a clear message using [Conventional Commits](https://www.conventionalcommits.org/):
    ```bash
-   git commit -m "Add: brief description of what changed"
+   git commit -m "feat(FA-11): add Google & GitHub OAuth login via Supabase Auth"
    ```
-   Use prefixes: `Add:`, `Fix:`, `Update:`, `Remove:`, `Refactor:`
+
+   **Format:** `<type>(FA-<issue>): <short description>`
+
+   > `FA` = **F**itness **A**gent (project prefix). The number maps to the [GitHub issue](https://github.com/Hrithik-Gavankar/fitness-agent/issues).
+
+   | Type | When to use |
+   |------|------------|
+   | `feat` | New feature |
+   | `fix` | Bug fix |
+   | `refactor` | Code restructuring (no behavior change) |
+   | `docs` | Documentation only |
+   | `chore` | Build, CI, dependency updates |
+   | `style` | Formatting, whitespace (no logic change) |
+   | `test` | Adding or updating tests |
+
+   **Examples:**
+   ```
+   feat(FA-11): add Google & GitHub OAuth login via Supabase Auth
+   fix(FA-7): resolve agent returning empty response on first prompt
+   docs(FA-3): update README with Ollama setup instructions
+   refactor(FA-15): extract YouTube embed logic into utility module
+   chore: bump supabase-py to 2.x
+   ```
+
+   The `(FA-<issue>)` scope is optional for changes not tied to an issue (e.g. `chore: update deps`).
 
 5. **Push and open a PR:**
    ```bash
-   git push origin feature/your-feature-name
+   git push -u origin feat/<your-username>/<issue-number>-short-desc
    ```
+
+   **PR title** should follow the same format as the commit:
+   ```
+   feat(FA-11): add Google & GitHub OAuth login via Supabase Auth
+   ```
+
    Then open a Pull Request against `master`.
 
 ## Code Style
@@ -123,10 +155,11 @@ Only use videos that are publicly available. Do not upload or redistribute copyr
 
 ## Pull Request Guidelines
 
+- **Title** follows the commit format: `feat(FA-11): add OAuth login`
 - Keep PRs focused — one feature or fix per PR
 - Update the README if you add a new feature or change setup steps
 - If your change affects the agent's behavior, test with at least 2-3 different prompts
-- Link related issues in the PR description (e.g., "Closes #5")
+- Link related issues in the PR description using closing keywords (e.g., `Closes #11`) — this auto-closes the issue on merge
 
 ## Questions?
 
