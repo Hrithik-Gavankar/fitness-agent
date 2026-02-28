@@ -1,7 +1,7 @@
 google-adk
 python-dotenv
 pydantic
-streamlit[auth]
+streamlit
 nest_asyncio
 litellm
-streamlit-oauth
+supabase
