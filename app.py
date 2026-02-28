@@ -101,11 +101,11 @@ def inject_css():
         }
         .stat-card {
             flex: 1; min-width: 120px;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            background: var(--secondary-background-color);
             padding: 1rem 1.2rem;
             border-radius: 12px;
             text-align: center;
-            color: white;
+            color: var(--text-color);
         }
         .stat-card .stat-value {
             font-size: 1.6rem; font-weight: 700;
@@ -115,25 +115,16 @@ def inject_css():
         .stat-card .stat-label { font-size: 0.75rem; opacity: 0.7; margin-top: 0.2rem; }
 
         .profile-card {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background: var(--secondary-background-color);
             padding: 1rem 1.3rem;
             border-radius: 12px;
             margin-bottom: 1rem;
             border-left: 4px solid #667eea;
         }
-        .profile-card h4 { margin: 0 0 0.2rem 0; color: #333; font-size: 0.9rem; }
-        .profile-card p { margin: 0; color: #555; font-size: 0.8rem; }
+        .profile-card h4 { margin: 0 0 0.2rem 0; color: var(--text-color); font-size: 0.9rem; }
+        .profile-card p { margin: 0; color: var(--text-color); opacity: 0.75; font-size: 0.8rem; }
 
         .stChatMessage { border-radius: 12px !important; }
-
-        section[data-testid="stSidebar"] {
-            background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
-        }
-        section[data-testid="stSidebar"] .stMarkdown { color: #e0e0e0; }
-        section[data-testid="stSidebar"] h1,
-        section[data-testid="stSidebar"] h2,
-        section[data-testid="stSidebar"] h3 { color: #ffffff !important; }
-        section[data-testid="stSidebar"] label { color: #ccc !important; }
 
         div[data-testid="stStatusWidget"] { display: none; }
 
@@ -149,10 +140,11 @@ def inject_css():
             padding: 0.8rem 1rem;
             margin-top: 0.6rem;
             font-size: 0.82rem;
-            color: #ccc;
+            color: var(--text-color);
+            opacity: 0.85;
             line-height: 1.5;
         }
-        .next-step-hint strong { color: #fff; }
+        .next-step-hint strong { color: var(--text-color); }
     </style>
     """, unsafe_allow_html=True)
 

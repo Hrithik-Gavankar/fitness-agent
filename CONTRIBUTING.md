@@ -160,6 +160,7 @@ Only use videos that are publicly available. Do not upload or redistribute copyr
 - Update the README if you add a new feature or change setup steps
 - If your change affects the agent's behavior, test with at least 2-3 different prompts
 - Link related issues in the PR description using closing keywords (e.g., `Closes #11`) — this auto-closes the issue on merge
+- Attach implementation screenshots if possible for UI developments
 
 ## Questions?
 

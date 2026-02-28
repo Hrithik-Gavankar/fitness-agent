@@ -171,7 +171,8 @@ def render_login_page():
             margin-bottom: 0.4rem;
         }
         .login-hero p {
-            color: #888;
+            color: var(--text-color);
+            opacity: 0.6;
             font-size: 1rem;
             margin-bottom: 0;
         }
@@ -215,6 +216,19 @@ def render_login_page():
         .oauth-btn-github:hover {
             background: linear-gradient(135deg, #3a4149, #2b3137);
             border-color: #777;
+        }
+        /* Style the Streamlit secondary button (GitHub) on login page */
+        button[kind="secondary"] {
+            background: var(--secondary-background-color) !important;
+            color: var(--text-color) !important;
+            border: 1px solid rgba(128,128,128,0.3) !important;
+            font-weight: 600 !important;
+        }
+        button[kind="secondary"]:hover {
+            filter: brightness(0.9) !important;
+        }
+        button[kind="secondary"] p {
+            color: var(--text-color) !important;
         }
     </style>
     """, unsafe_allow_html=True)
@@ -274,7 +288,7 @@ def render_user_badge():
             st.markdown(
                 f'<div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.3rem">'
                 f'<img src="{avatar}" width="32" height="32" style="border-radius:50%">'
-                f'<strong style="color:#fff">{name}</strong>'
+                f'<strong style="color:var(--text-color)">{name}</strong>'
                 f'</div>',
                 unsafe_allow_html=True,
             )
