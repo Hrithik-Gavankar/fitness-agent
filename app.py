@@ -137,7 +137,22 @@ def inject_css():
 
         div[data-testid="stStatusWidget"] { display: none; }
 
+        /* Hide the "Press Enter to apply" tooltip on text inputs */
+        div[data-testid="InputInstructions"] { display: none; }
+
         .yt-embed { border-radius: 12px; margin: 0.5rem 0; }
+
+        .next-step-hint {
+            background: linear-gradient(135deg, #667eea22, #764ba222);
+            border: 1px solid #667eea44;
+            border-radius: 10px;
+            padding: 0.8rem 1rem;
+            margin-top: 0.6rem;
+            font-size: 0.82rem;
+            color: #ccc;
+            line-height: 1.5;
+        }
+        .next-step-hint strong { color: #fff; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -291,6 +306,15 @@ def render_sidebar():
 
         if st.session_state.get("profile_saved"):
             st.success(f"Profile saved for {st.session_state['profile_name']}!")
+            st.markdown(
+                '<div class="next-step-hint">'
+                "<strong>What's next?</strong><br>"
+                "Use the <strong>quick action buttons</strong> on the right, "
+                "or type anything in the chat — try asking for a workout plan, "
+                "diet plan, or video recommendations!"
+                "</div>",
+                unsafe_allow_html=True,
+            )
 
         st.divider()
 
