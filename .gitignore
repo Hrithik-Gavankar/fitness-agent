@@ -5,8 +5,11 @@ __pycache__/
 .env
 fitness_agent/.env
 fitness_agent/data/user_history.json
-.adk/
+.auth_storage.json
 .streamlit/secrets.toml
+.adk/
+ROADMAP.md
+ISSUES.md
 .venv/
 venv/
 env/
