@@ -2,6 +2,18 @@
 
 An AI-powered fitness coach built with **Google ADK** that provides personalized workout plans, diet plans, and YouTube video recommendations through a conversational interface.
 
+## Agent Pattern
+
+This project follows the **Single Agent** pattern from [Google ADK's agent design patterns](https://youtu.be/GDm_uH6VxPY):
+
+| Pattern | Description | Used Here? |
+|---------|-------------|:----------:|
+| **Single Agent** | One agent with multiple tools, handles all tasks via tool selection | Yes |
+| Sequential Agent | Multiple agents chained in order, output of one feeds the next | No |
+| Parallel Agent | Multiple agents run concurrently, results are aggregated | No |
+
+Our `root_agent` is a single `Agent` with three tools (`get_workout_plan`, `get_diet_plan`, `get_youtube_recommendations`). The LLM decides which tool(s) to call based on the user's request and profile context. This pattern works well here because the tools are independent and the agent's instruction prompt handles all orchestration logic.
+
 ## Features
 
 - **Personalized Onboarding** -- Collects user profile (age, weight, height, goals, preferences) through a sidebar form
@@ -34,10 +46,7 @@ fitness-agent/
 │       ├── diet_plans/         # Diet plans by goal (JSON)
 │       └── youtube_videos/     # Video recommendations by goal (JSON)
 ├── app.py                      # Streamlit UI
-├── auth.py                     # OAuth module (Google + GitHub)
-├── .streamlit/
-│   ├── secrets.toml            # Auth credentials (not committed)
-│   └── secrets.example.toml    # Template for auth setup
+├── auth.py                     # Supabase OAuth module (Google + GitHub)
 ├── start.sh                    # Launch script
 ├── FLOW.md                     # Architecture documentation
 ├── CONTRIBUTING.md             # Contribution guidelines
@@ -98,17 +107,18 @@ Or use the launch script for both ADK UI and Streamlit:
 
 ### 4. (Optional) Enable authentication
 
-To require Google/GitHub login:
+Auth is powered by [Supabase](https://supabase.com) and is entirely optional — leave the env vars blank to skip login.
+
+1. Create a free project at [supabase.com](https://supabase.com)
+2. Go to **Authentication → Providers** and enable Google and/or GitHub
+3. Copy your Project URL and `anon` key from **Settings → API**
+4. Add them to `fitness_agent/.env`:
 
 ```bash
-cp .streamlit/secrets.example.toml .streamlit/secrets.toml
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_ANON_KEY=your-anon-key
+AUTH_REDIRECT_URL=http://localhost:8501
 ```
-
-Edit `.streamlit/secrets.toml`:
-1. Set `auth_enabled = true`
-2. Fill in your Google OAuth credentials ([setup guide](https://console.cloud.google.com/auth/clients))
-3. Fill in your GitHub OAuth credentials ([setup guide](https://github.com/settings/developers))
-4. Set `cookie_secret` to a random string
 
 You can enable one or both providers.
 
@@ -141,7 +151,7 @@ Edit JSON files in `fitness_agent/data/workouts/` and `fitness_agent/data/diet_p
 | Agent Framework  | Google ADK                    |
 | LLM              | Gemini 2.5 Flash / Ollama    |
 | Frontend         | Streamlit                     |
-| Authentication   | Streamlit OIDC + OAuth2       |
+| Authentication   | Supabase Auth (OAuth PKCE)    |
 | Language         | Python 3.10+                  |
 | Data Validation  | Pydantic                      |
 | Data Storage     | Local JSON files              |
