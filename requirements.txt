@@ -3,5 +3,4 @@ python-dotenv
 pydantic
 streamlit
 nest_asyncio
-litellm
 supabase

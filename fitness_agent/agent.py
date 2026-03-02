@@ -97,31 +97,8 @@ When presenting YouTube videos:
 - Suggest modifications if the user mentions injuries or limitations
 """
 
-def _get_model():
-    """Resolve the model based on environment config.
-
-    Set MODEL_PROVIDER=ollama in .env to use a local Ollama model.
-    Configure OLLAMA_MODEL and OLLAMA_BASE_URL as needed.
-
-    Defaults to Gemini via Google API if MODEL_PROVIDER is unset or 'gemini'.
-    """
-    provider = os.environ.get("MODEL_PROVIDER", "gemini").lower()
-
-    if provider == "ollama":
-        from google.adk.models.lite_llm import LiteLlm
-
-        model_name = os.environ.get("OLLAMA_MODEL", "llama3.1:8b")
-        base_url = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
-        return LiteLlm(
-            model=f"ollama/{model_name}",
-            api_base=base_url,
-        )
-
-    return os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
-
-
 root_agent = Agent(
-    model=_get_model(),
+    model=os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"),
     name="fitness_agent",
     description="An AI-powered fitness coach that provides personalized workout plans, diet plans, and YouTube video recommendations based on user profile and goals.",
     instruction=AGENT_INSTRUCTION,

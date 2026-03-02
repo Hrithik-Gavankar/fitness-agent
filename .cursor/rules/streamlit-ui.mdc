@@ -1,0 +1,48 @@
+---
+description: Streamlit UI and CSS patterns for fitness-agent
+globs: "{app.py,auth.py}"
+alwaysApply: false
+---
+
+# Streamlit UI Patterns
+
+## Theme-Aware CSS
+
+Always use Streamlit's CSS variables — never hardcode colors for light or dark mode:
+
+```css
+/* GOOD */
+background: var(--secondary-background-color);
+color: var(--text-color);
+
+/* BAD */
+background: #1a1a2e;
+color: white;
+color: #333;
+```
+
+Available variables:
+- `var(--background-color)` — main background
+- `var(--secondary-background-color)` — cards, sidebar
+- `var(--text-color)` — text
+- `var(--primary-color)` — accent
+
+Exception: self-contained gradient elements with their own background (e.g. hero header) can use fixed colors since the text sits on a known background.
+
+## Streamlit Session State
+
+- Use `st.session_state` for all cross-rerun persistence
+- For OAuth state that must survive redirects, use file-based storage (not session state)
+- Prefix internal keys: `_auth_provider`, `pending_prompt`
+
+## Async + ADK
+
+- Apply `nest_asyncio.apply()` before any async ADK calls
+- Use `loop.run_until_complete()` (not `asyncio.run()`) for ADK runner in Streamlit
+- Two-phase rerun pattern for loading states: set `pending_prompt` -> `st.rerun()` -> process on next run
+
+## HTML in Streamlit
+
+- Always pass `unsafe_allow_html=True` for custom HTML/CSS
+- Use `<meta http-equiv="refresh">` for same-tab redirects (not `st.link_button` which opens new tabs)
+- Target Streamlit buttons via `button[kind="secondary"]` or `button[kind="primary"]` in CSS

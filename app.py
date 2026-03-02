@@ -8,6 +8,9 @@ from datetime import datetime, timedelta
 import nest_asyncio
 import streamlit as st
 from dotenv import load_dotenv
+
+load_dotenv("fitness_agent/.env")
+
 from google.adk.runners import Runner
 from google.adk.sessions import InMemorySessionService
 from google.genai import types as genai_types
@@ -17,7 +20,6 @@ from fitness_agent.utils.calculations import calculate_bmi, calculate_tdee, calc
 from auth import is_authenticated, render_login_page, render_user_badge
 
 nest_asyncio.apply()
-load_dotenv("fitness_agent/.env")
 
 APP_NAME = "fitness_agent"
 USER_ID = "default_user"
@@ -186,6 +188,10 @@ async def _run_agent(runner: Runner, session_id: str, message: str) -> str:
         parts=[genai_types.Part(text=message)],
     )
     final_text = ""
+    all_text = ""
+    tool_call_count = 0
+    max_tool_calls = 6
+
     try:
         async for event in runner.run_async(
             user_id=USER_ID,
@@ -194,12 +200,17 @@ async def _run_agent(runner: Runner, session_id: str, message: str) -> str:
         ):
             if event.content and event.content.parts:
                 for part in event.content.parts:
+                    if hasattr(part, "function_call") and part.function_call:
+                        tool_call_count += 1
                     if hasattr(part, "text") and part.text:
+                        all_text += part.text
                         if event.is_final_response():
                             final_text += part.text
+            if tool_call_count >= max_tool_calls:
+                break
     except Exception as e:
         return f"Error: {e}"
-    return final_text or "I'm sorry, I couldn't process that. Could you try again?"
+    return final_text or all_text or "I'm sorry, I couldn't process that. Could you try again?"
 
 
 def run_agent(runner: Runner, session_id: str, message: str) -> str:
@@ -410,9 +421,8 @@ def render_stats_dashboard():
 def render_chat():
     inject_css()
 
-    provider = os.environ.get("MODEL_PROVIDER", "gemini").lower()
     api_key = os.environ.get("GOOGLE_API_KEY")
-    if provider == "gemini" and (not api_key or api_key == "your_google_api_key_here"):
+    if not api_key or api_key == "your_google_api_key_here":
         st.error("Please set your `GOOGLE_API_KEY` in `fitness_agent/.env` to get started.")
         st.code("echo 'GOOGLE_API_KEY=your_key' > fitness_agent/.env", language="bash")
         st.stop()

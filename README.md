@@ -21,8 +21,7 @@ Our `root_agent` is a single `Agent` with three tools (`get_workout_plan`, `get_
 - **Diet Plans** -- Calorie-targeted meal plans with macro breakdowns, supporting Indian/Western cuisines and veg/non-veg/vegan preferences
 - **YouTube Recommendations** -- Curated video suggestions (with embedded players) matched to your goal and level
 - **Smart Dashboard** -- BMI, TDEE, macros, weight tracking, and activity streaks
-- **Authentication** -- Optional Google and GitHub OAuth login
-- **Multi-LLM Support** -- Works with Gemini (cloud) or Ollama (local)
+- **Authentication** -- Optional Google and GitHub OAuth login via Supabase
 
 ## Project Structure
 
@@ -71,25 +70,14 @@ pip install -r requirements.txt
 
 ### 2. Configure the agent
 
-**Option A: Gemini (cloud)**
-
-Get a key from [Google AI Studio](https://aistudio.google.com/app/apikey):
+Get a free API key from [Google AI Studio](https://aistudio.google.com/app/apikey):
 
 ```bash
 cp fitness_agent/.env.example fitness_agent/.env
 # Edit fitness_agent/.env and set GOOGLE_API_KEY
 ```
 
-**Option B: Ollama (local)**
-
-Install [Ollama](https://ollama.com), pull a model, then configure:
-
-```bash
-# In fitness_agent/.env
-MODEL_PROVIDER=ollama
-OLLAMA_MODEL=llama3.1:8b
-OLLAMA_BASE_URL=http://localhost:11434
-```
+The free tier of Gemini 2.5 Flash provides ~10-15 requests/minute and 250-1,000 requests/day — plenty for personal use and development.
 
 ### 3. Run the app
 
@@ -149,7 +137,7 @@ Edit JSON files in `fitness_agent/data/workouts/` and `fitness_agent/data/diet_p
 | Component        | Technology                    |
 |------------------|-------------------------------|
 | Agent Framework  | Google ADK                    |
-| LLM              | Gemini 2.5 Flash / Ollama    |
+| LLM              | Gemini 2.5 Flash (free tier) |
 | Frontend         | Streamlit                     |
 | Authentication   | Supabase Auth (OAuth PKCE)    |
 | Language         | Python 3.10+                  |

@@ -1,0 +1,49 @@
+---
+description: Project conventions for branching, commits, and PRs in fitness-agent
+alwaysApply: true
+---
+
+# Project Conventions
+
+## Branch Naming
+
+Format: `<type>/<username>/<issue-number>-<short-desc>`
+
+```
+feat/hrithik-gavankar/11-auth
+fix/hrithik-gavankar/7-empty-response
+```
+
+## Commit Messages
+
+Format: `<type>(FA-<issue>): <short description>`
+
+- `FA` = Fitness Agent (project prefix), number maps to GitHub issue
+- Scope `(FA-<n>)` is optional for changes not tied to an issue
+
+| Type | When |
+|------|------|
+| feat | New feature |
+| fix | Bug fix |
+| refactor | Code restructuring, no behavior change |
+| docs | Documentation only |
+| chore | Build, CI, deps |
+| style | Formatting, whitespace |
+| test | Tests |
+
+```
+feat(FA-11): add Google & GitHub OAuth login via Supabase Auth
+fix(FA-7): resolve agent returning empty response
+chore: bump supabase-py to 2.x
+```
+
+## Pull Requests
+
+- Title follows commit format: `feat(FA-11): add OAuth login`
+- Body must include `Closes #<issue>` to auto-link and auto-close
+- Attach screenshots for UI changes
+- One feature or fix per PR
+
+## Secrets
+
+Never commit `.env`, `.auth_storage.json`, or `secrets.toml`. All secrets load via `os.environ.get()`.

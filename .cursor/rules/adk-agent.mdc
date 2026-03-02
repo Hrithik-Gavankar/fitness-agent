@@ -1,0 +1,49 @@
+---
+description: Google ADK agent development patterns for fitness-agent
+globs: "fitness_agent/**/*.py"
+alwaysApply: false
+---
+
+# ADK Agent Development
+
+## Architecture: Single Agent Pattern
+
+This project uses the Single Agent pattern — one `root_agent` with multiple tools.
+Do NOT introduce multi-agent orchestration (sequential/parallel agents) unless explicitly planned.
+
+```python
+root_agent = Agent(
+    model=os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"),
+    name="fitness_agent",
+    instruction=AGENT_INSTRUCTION,
+    tools=[get_workout_plan, get_diet_plan, get_youtube_recommendations],
+)
+```
+
+## Adding Tools
+
+Tools are Python functions in `fitness_agent/tools/`, one per file:
+
+- Annotate parameters with type hints and docstrings — ADK uses these for the LLM
+- Use Literal types for constrained parameters: `Literal["fat_loss", "weight_gain"]`
+- Return `dict` with structured data the agent can format
+- After adding a tool, register it in `agent.py`'s `tools=[]` list AND document it in `AGENT_INSTRUCTION`
+
+## Agent Instructions
+
+The `AGENT_INSTRUCTION` string in `agent.py` must:
+
+- Explicitly list ALL available tools by exact function name
+- Specify exact enum values for each parameter
+- State "Do NOT invent or hallucinate tool names"
+- Define the onboarding flow and presentation format
+
+## Data Layer
+
+- Knowledge base lives in `fitness_agent/data/` as JSON files
+- Use `fitness_agent/utils/data_loader.py` to load and filter
+- Calculations (BMI, TDEE, macros) live in `fitness_agent/utils/calculations.py`
+
+## Model
+
+Uses Gemini 2.5 Flash via Google ADK (free tier). Model is configured via `GEMINI_MODEL` env var, defaulting to `gemini-2.5-flash`.
