@@ -1,0 +1,47 @@
+---
+description: Python coding standards for fitness-agent
+globs: "**/*.py"
+alwaysApply: false
+---
+
+# Python Standards
+
+## Version & Typing
+
+- Python 3.10+ required
+- Use type hints: `str | None` (not `Optional[str]`), `dict`, `list` (not `Dict`, `List`)
+
+## Imports
+
+Order with blank lines between groups:
+
+```python
+import os                          # 1. stdlib
+import json
+
+import streamlit as st             # 2. third-party
+from pydantic import BaseModel
+
+from fitness_agent.agent import root_agent  # 3. local
+```
+
+## Secrets & Config
+
+- Load from env: `os.environ.get("KEY", "default")`
+- Never hardcode API keys, tokens, or Supabase credentials
+- `.env` files live in `fitness_agent/` and are gitignored
+
+## Error Handling
+
+- Catch specific exceptions, not bare `except:`
+- Log or surface errors meaningfully; don't silently swallow
+
+## Comments
+
+- No narration comments ("# Import the module", "# Return the result")
+- Only explain non-obvious intent, trade-offs, or constraints
+
+## Data Models
+
+- Use Pydantic `BaseModel` for structured data in `fitness_agent/models/`
+- Use enums or Literal types for fixed option sets (goals, levels, diet prefs)
