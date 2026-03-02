@@ -154,4 +154,6 @@ See [MAINTAINERS.md](MAINTAINERS.md) for the full list of project owners and con
 
 ## Documentation
 
-See [FLOW.md](FLOW.md) for the full architecture document.
+- [FLOW.md](FLOW.md) — System flow and agent design
+- [DATA_ARCHITECTURE.md](DATA_ARCHITECTURE.md) — Database schema, ER diagram, and migration plan
+- [docs/diagrams/architecture.excalidraw](docs/diagrams/architecture.excalidraw) — Block architecture diagram (open with [excalidraw.com](https://excalidraw.com))
