@@ -77,7 +77,7 @@ cp fitness_agent/.env.example fitness_agent/.env
 # Edit fitness_agent/.env and set GOOGLE_API_KEY
 ```
 
-The free tier of Gemini 2.5 Flash provides ~10-15 requests/minute and 250-1,000 requests/day — plenty for personal use and development.
+The free tier of Gemini 2.5 Flash offers roughly only 5 requests/minute, 20 requests/day, and 250K tokens/minute —  for personal use and development. Please use it carefully and wisely.
 
 ### 3. Run the app
 
